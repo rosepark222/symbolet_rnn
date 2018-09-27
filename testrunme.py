@@ -273,12 +273,18 @@ print( score_pre.shape[0] )
 
 rr = np.arange(score_pre.shape[0])
 
+print("len of k is %d" % (len(k)))
+print("len of symbol_list is %d" % (len(symbol_list)))
+
 for i in rr:
   e = k[ i] 
   sco = score_pre[i] #score
   p = symbol_list[ np.argmax(sco) ]
   if( e != p ):
-    print( "%3d: exp=%10s and pre=%10s" % (i, e, p) )
+    print( "DIFF %3d: exp=%10s and pre=%10s" % (i, e, p) )
+  if( e == p ):
+    print( "SAME %3d: exp=%10s and pre=%10s" % (i, e, p) )
+
   if( i == 337 ):
     print( sco )
     for j in np.arange(len(sco)):
