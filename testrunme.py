@@ -219,7 +219,7 @@ def train_generator():
 
 #import numpy as np
 #model = load_model('./me_ep1000_var61_acc90.h5') #./math_equation.h5', custom_objects = { '0':'a', '1':'b', '2': 'c', '3':'d'})
-model = load_model('./model_sym61_batch500_epoch1500_1st64_2nd32.h5')
+model = load_model('./model_sym61_batch500_epoch1000_1st64_2nd32.h5')
 
 print(model)
 

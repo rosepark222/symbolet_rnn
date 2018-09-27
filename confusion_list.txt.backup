@@ -1,0 +1,1379 @@
+ read 13017 strokes from ./abc_test_2011_12_13.csv 
+<tensorflow.python.keras._impl.keras.engine.sequential.Sequential object at 0x7fc6127fcc88>
+datasize 13017
+batch_size 500
+num_batch_in_epoch 27.000000
+run generator first time current: 0
+run generator first time current: 0, end:500
+run generator first time current: 500, end:1000
+run generator first time current: 1000, end:1500
+run generator first time current: 1500, end:2000
+run generator first time current: 2000, end:2500
+run generator first time current: 2500, end:3000
+run generator first time current: 3000, end:3500
+run generator first time current: 3500, end:4000
+run generator first time current: 4000, end:4500
+run generator first time current: 4500, end:5000
+run generator first time current: 5000, end:5500
+run generator first time current: 5500, end:6000
+run generator first time current: 6000, end:6500
+run generator first time current: 6500, end:7000
+run generator first time current: 7000, end:7500
+run generator first time current: 7500, end:8000
+run generator first time current: 8000, end:8500
+run generator first time current: 8500, end:9000
+run generator first time current: 9000, end:9500
+run generator first time current: 9500, end:10000
+run generator first time current: 10000, end:10500
+run generator first time current: 10500, end:11000
+run generator first time current: 11000, end:11500
+run generator first time current: 11500, end:12000
+run generator first time current: 12000, end:12500
+run generator first time current: 12500, end:13000
+run generator first time current: 13000, end:483
+run generator first time current: 483, end:983
+run generator first time current: 983, end:1483
+run generator first time current: 1483, end:1983
+run generator first time current: 1983, end:2483
+run generator first time current: 2483, end:2983
+run generator first time current: 2983, end:3483
+run generator first time current: 3483, end:3983
+run generator first time current: 3983, end:4483
+run generator first time current: 4483, end:4983
+run generator first time current: 4983, end:5483
+[0.45152053071392906, 0.002466118843855198, 0.9065925920451129]
+run generator first time current: 0
+run generator first time current: 0, end:500
+run generator first time current: 500, end:1000
+run generator first time current: 1000, end:1500
+run generator first time current: 1500, end:2000
+run generator first time current: 2000, end:2500
+run generator first time current: 2500, end:3000
+run generator first time current: 3000, end:3500
+run generator first time current: 3500, end:4000
+run generator first time current: 4000, end:4500
+run generator first time current: 4500, end:5000
+run generator first time current: 5000, end:5500
+run generator first time current: 5500, end:6000
+run generator first time current: 6000, end:6500
+run generator first time current: 6500, end:7000
+run generator first time current: 7000, end:7500
+run generator first time current: 7500, end:8000
+run generator first time current: 8000, end:8500
+run generator first time current: 8500, end:9000
+run generator first time current: 9000, end:9500
+run generator first time current: 9500, end:10000
+run generator first time current: 10000, end:10500
+run generator first time current: 10500, end:11000
+run generator first time current: 11000, end:11500
+run generator first time current: 11500, end:12000
+run generator first time current: 12000, end:12500
+run generator first time current: 12500, end:13000
+run generator first time current: 13000, end:483
+run generator first time current: 483, end:983
+run generator first time current: 983, end:1483
+run generator first time current: 1483, end:1983
+run generator first time current: 1983, end:2483
+run generator first time current: 2483, end:2983
+run generator first time current: 2983, end:3483
+run generator first time current: 3483, end:3983
+run generator first time current: 3983, end:4483
+run generator first time current: 4483, end:4983
+run generator first time current: 4983, end:5483
+[[1.35297442e-11 9.20800567e-01 4.62300221e-07 ... 4.39776806e-04
+  1.02085536e-16 1.70276380e-05]
+ [4.09771230e-14 2.63067707e-10 4.10536040e-06 ... 1.20436985e-11
+  6.72343736e-10 1.22645605e-09]
+ [7.09419069e-13 3.78956103e-14 2.16627977e-15 ... 3.45035192e-16
+  9.71212607e-12 1.23893541e-17]
+ ...
+ [4.20272324e-11 1.52444765e-10 1.84361966e-12 ... 1.64339792e-11
+  5.10254450e-10 3.68173547e-10]
+ [4.19888706e-13 9.98180389e-01 1.04857678e-08 ... 3.63142840e-06
+  4.85602065e-19 2.08953429e-06]
+ [9.76285770e-14 6.95024732e-11 2.91667667e-12 ... 2.96761955e-11
+  4.38658956e-13 1.73818167e-13]]
+score_pre.shape 
+(13500, 61)
+13500
+  5: exp=     1_1_1 and pre=     2_1_1
+ 11: exp=     )_1_1 and pre=     7_1_1
+ 25: exp=     (_1_1 and pre=     c_1_1
+ 29: exp=     i_2_1 and pre=     s_1_1
+ 38: exp=     c_1_1 and pre=     (_1_1
+ 52: exp=  4_2_nose and pre=     c_1_1
+ 54: exp=  4_2_nose and pre=  t_2_tail
+ 68: exp=     a_1_1 and pre=     h_1_1
+ 74: exp=     4_1_1 and pre=     a_1_1
+123: exp=     4_1_1 and pre=     m_1_1
+128: exp=  4_2_nose and pre=     c_1_1
+151: exp=     i_2_1 and pre=  t_2_tail
+157: exp=     i_2_1 and pre=  t_2_tail
+161: exp=     a_1_1 and pre=     4_1_1
+162: exp=     i_2_1 and pre=     j_2_1
+164: exp=     2_1_1 and pre=  t_2_tail
+175: exp=     i_2_1 and pre=  4_2_nose
+184: exp=y_2_flower and pre=     i_2_1
+209: exp=     b_1_1 and pre=     s_1_1
+219: exp=     L_1_1 and pre=  t_2_tail
+220: exp=   \mu_1_1 and pre=\sigma_1_1
+256: exp=     k_1_1 and pre=     n_1_1
+258: exp=     n_1_1 and pre=     d_1_1
+269: exp=   \lt_1_1 and pre=     1_1_1
+270: exp=   \lt_1_1 and pre=     c_1_1
+278: exp=   \lt_1_1 and pre=     4_1_1
+284: exp=     i_2_1 and pre=  t_2_tail
+285: exp=     c_1_1 and pre=  t_2_tail
+306: exp=  4_2_nose and pre=     c_1_1
+311: exp=     2_1_1 and pre=     z_1_1
+320: exp=     u_1_1 and pre=     v_1_1
+327: exp=     )_1_1 and pre=     3_1_1
+330: exp=     u_1_1 and pre=y_2_flower
+337: exp=     (_1_1 and pre=  t_2_tail
+[9.88678805e-10 1.18940948e-02 1.37349643e-08 1.31650158e-05
+ 6.03853356e-10 3.92512402e-06 1.76284747e-08 1.23227674e-05
+ 7.46207908e-02 7.28307981e-15 1.21289965e-08 4.46670221e-08
+ 9.06271307e-05 4.35352163e-08 6.29836849e-10 1.32729071e-12
+ 4.89904339e-09 4.53703129e-13 9.88189655e-08 8.00601672e-04
+ 1.53731264e-07 1.05417177e-11 9.45840438e-05 1.27108001e-06
+ 1.62136130e-05 1.76076406e-12 2.10497251e-06 4.79327600e-09
+ 1.97275618e-08 1.07753813e-10 4.33272362e-05 2.37165376e-13
+ 4.82062816e-08 2.06929369e-11 8.96571000e-05 1.11680034e-04
+ 8.27032949e-08 2.67827627e-09 6.65644536e-12 1.73606263e-09
+ 6.57945475e-06 1.40123552e-06 9.11921561e-01 5.89122422e-08
+ 2.39681555e-07 4.74538187e-09 2.01435319e-06 3.00888883e-06
+ 1.66261583e-04 3.33634418e-08 6.42617763e-08 1.35133322e-12
+ 7.05615233e-10 2.12054459e-07 4.68547293e-17 2.47196952e-09
+ 1.27817558e-15 5.15331449e-05 1.25109558e-08 1.19734403e-10
+ 5.20503309e-05]
+0 score:0.000000 \sigma_1_1
+1 score:0.011894      (_1_1
+2 score:0.000000   \sum_1_1
+3 score:0.000013      1_1_1
+4 score:0.000000      n_1_1
+5 score:0.000004      2_1_1
+6 score:0.000000      )_1_1
+7 score:0.000012      r_1_1
+8 score:0.074621      i_2_1
+9 score:0.000000 \theta_1_1
+10 score:0.000000 \sum_2_bot
+11 score:0.000000      b_1_1
+12 score:0.000091      c_1_1
+13 score:0.000000      4_1_1
+14 score:0.000000      3_1_1
+15 score:0.000000      d_1_1
+16 score:0.000000      a_1_1
+17 score:0.000000      8_1_1
+18 score:0.000000      7_1_1
+19 score:0.000801   4_2_nose
+20 score:0.000000      y_1_1
+21 score:0.000000      0_1_1
+22 score:0.000095 y_2_flower
+23 score:0.000001   x_2_left
+24 score:0.000016      x_1_1
+25 score:0.000000  \sqrt_1_1
+26 score:0.000002      L_1_1
+27 score:0.000000      u_1_1
+28 score:0.000000    \mu_1_1
+29 score:0.000000      k_1_1
+30 score:0.000043    \lt_1_1
+31 score:0.000000      p_1_1
+32 score:0.000000    p_2_ear
+33 score:0.000000      q_1_1
+34 score:0.000090      j_2_1
+35 score:0.000112  f_2_cobra
+36 score:0.000000     \{_1_1
+37 score:0.000000     \}_1_1
+38 score:0.000000      ]_1_1
+39 score:0.000000      9_1_1
+40 score:0.000007      h_1_1
+41 score:0.000001   \int_1_1
+42 score:0.911922   t_2_tail
+43 score:0.000000      e_1_1
+44 score:0.000000      z_1_1
+45 score:0.000000      g_1_1
+46 score:0.000002      s_1_1
+47 score:0.000003   5_2_hook
+48 score:0.000166      6_1_1
+49 score:0.000000      v_1_1
+50 score:0.000000      5_1_1
+51 score:0.000000      w_1_1
+52 score:0.000000    \gt_1_1
+53 score:0.000000 \alpha_1_1
+54 score:0.000000  \beta_1_1
+55 score:0.000000 \gamma_1_1
+56 score:0.000000      m_1_1
+57 score:0.000052      l_1_1
+58 score:0.000000      [_1_1
+59 score:0.000000 \infty_1_1
+60 score:0.000052      /_1_1
+340: exp=     u_1_1 and pre=     n_1_1
+355: exp=     j_2_1 and pre=  5_2_hook
+366: exp=     n_1_1 and pre=     h_1_1
+379: exp=     j_2_1 and pre=  5_2_hook
+380: exp=     )_1_1 and pre=\alpha_1_1
+386: exp=  x_2_left and pre=   p_2_ear
+391: exp=     i_2_1 and pre=  x_2_left
+392: exp=     i_2_1 and pre=     1_1_1
+396: exp=     b_1_1 and pre=     s_1_1
+398: exp=  \sum_1_1 and pre=\sum_2_bot
+405: exp=     i_2_1 and pre=     0_1_1
+406: exp=  x_2_left and pre=     )_1_1
+407: exp=     i_2_1 and pre=  4_2_nose
+412: exp=     1_1_1 and pre=     2_1_1
+417: exp=     n_1_1 and pre=  x_2_left
+424: exp=   p_2_ear and pre=  x_2_left
+427: exp=   p_2_ear and pre=     )_1_1
+433: exp=   p_2_ear and pre=     1_1_1
+435: exp=     n_1_1 and pre=     x_1_1
+453: exp=     1_1_1 and pre=     (_1_1
+462: exp=     n_1_1 and pre=     r_1_1
+470: exp=     4_1_1 and pre=     y_1_1
+476: exp=     )_1_1 and pre=  x_2_left
+487: exp=  4_2_nose and pre=     (_1_1
+489: exp=  4_2_nose and pre=     i_2_1
+492: exp=     3_1_1 and pre=     7_1_1
+496: exp=     )_1_1 and pre=  x_2_left
+504: exp=  4_2_nose and pre=     2_1_1
+507: exp=  4_2_nose and pre=  t_2_tail
+510: exp=  4_2_nose and pre=     c_1_1
+515: exp=     n_1_1 and pre= \sqrt_1_1
+521: exp= f_2_cobra and pre=     (_1_1
+549: exp=  4_2_nose and pre=     c_1_1
+553: exp=     n_1_1 and pre=     h_1_1
+554: exp=     n_1_1 and pre=     h_1_1
+556: exp=     h_1_1 and pre=     L_1_1
+564: exp=     c_1_1 and pre=     (_1_1
+566: exp=     u_1_1 and pre=     n_1_1
+568: exp=     z_1_1 and pre=     2_1_1
+571: exp=     7_1_1 and pre=  x_2_left
+572: exp=     g_1_1 and pre=     y_1_1
+579: exp=     L_1_1 and pre=  4_2_nose
+588: exp=     z_1_1 and pre=     2_1_1
+596: exp=     4_1_1 and pre=     0_1_1
+597: exp=     d_1_1 and pre=     2_1_1
+609: exp=     8_1_1 and pre=\gamma_1_1
+611: exp=     n_1_1 and pre=y_2_flower
+618: exp=     m_1_1 and pre=     k_1_1
+623: exp=  \int_1_1 and pre=     s_1_1
+626: exp=   \lt_1_1 and pre=     (_1_1
+633: exp=     u_1_1 and pre=     4_1_1
+636: exp=  t_2_tail and pre=  4_2_nose
+638: exp=     u_1_1 and pre=     4_1_1
+644: exp=     ]_1_1 and pre=     7_1_1
+649: exp=   \gt_1_1 and pre=  x_2_left
+685: exp=     )_1_1 and pre=  x_2_left
+687: exp=     2_1_1 and pre=  x_2_left
+689: exp=  x_2_left and pre=     )_1_1
+695: exp=     )_1_1 and pre=  x_2_left
+700: exp=  x_2_left and pre=     (_1_1
+705: exp=     )_1_1 and pre=  x_2_left
+707: exp=     z_1_1 and pre=     2_1_1
+722: exp=     i_2_1 and pre=     (_1_1
+724: exp=   p_2_ear and pre= \sqrt_1_1
+727: exp=\sum_2_bot and pre=     z_1_1
+735: exp=   \lt_1_1 and pre=  4_2_nose
+757: exp=   \lt_1_1 and pre=     )_1_1
+772: exp=     L_1_1 and pre=  t_2_tail
+773: exp=     z_1_1 and pre=     2_1_1
+781: exp=  4_2_nose and pre=  t_2_tail
+795: exp=  \int_1_1 and pre= f_2_cobra
+829: exp=  4_2_nose and pre=  t_2_tail
+832: exp=  x_2_left and pre=     i_2_1
+837: exp=  4_2_nose and pre=  t_2_tail
+859: exp=     z_1_1 and pre=     2_1_1
+871: exp=     2_1_1 and pre=     z_1_1
+898: exp=     i_2_1 and pre=  x_2_left
+910: exp=     i_2_1 and pre=y_2_flower
+912: exp=  t_2_tail and pre=     (_1_1
+927: exp=  \sum_1_1 and pre=\sum_2_bot
+928: exp=\sigma_1_1 and pre=     r_1_1
+934: exp=     r_1_1 and pre= \sqrt_1_1
+935: exp=     u_1_1 and pre=   \mu_1_1
+963: exp=     h_1_1 and pre=     n_1_1
+964: exp=     2_1_1 and pre=     z_1_1
+965: exp=  4_2_nose and pre=  t_2_tail
+971: exp=     v_1_1 and pre=\gamma_1_1
+991: exp=     i_2_1 and pre=  t_2_tail
+992: exp= f_2_cobra and pre=  \int_1_1
+1008: exp=     )_1_1 and pre=  x_2_left
+1015: exp=   \mu_1_1 and pre=     n_1_1
+1040: exp=\gamma_1_1 and pre= \sqrt_1_1
+1062: exp=\gamma_1_1 and pre=     r_1_1
+1065: exp=     2_1_1 and pre=     z_1_1
+1067: exp=     2_1_1 and pre=     z_1_1
+1076: exp=     )_1_1 and pre=   \gt_1_1
+1077: exp= f_2_cobra and pre=  \int_1_1
+1093: exp=     (_1_1 and pre=     c_1_1
+1096: exp=  t_2_tail and pre=     (_1_1
+1101: exp=  4_2_nose and pre=     2_1_1
+1114: exp=     (_1_1 and pre=     c_1_1
+1120: exp=     i_2_1 and pre=     )_1_1
+1141: exp=     )_1_1 and pre=  x_2_left
+1142: exp=   \lt_1_1 and pre=     (_1_1
+1153: exp= f_2_cobra and pre=     (_1_1
+1163: exp=     (_1_1 and pre=  t_2_tail
+1169: exp=     z_1_1 and pre=  x_2_left
+1173: exp=  4_2_nose and pre=  t_2_tail
+1187: exp=  t_2_tail and pre=  4_2_nose
+1189: exp= f_2_cobra and pre=  \int_1_1
+1210: exp=     6_1_1 and pre=\infty_1_1
+1212: exp=     4_1_1 and pre=     9_1_1
+1213: exp=\sum_2_bot and pre=  \sum_1_1
+1216: exp=     L_1_1 and pre=  4_2_nose
+1223: exp=     L_1_1 and pre=  t_2_tail
+1226: exp=     [_1_1 and pre=     (_1_1
+1228: exp=\gamma_1_1 and pre=     r_1_1
+1232: exp=     i_2_1 and pre=  4_2_nose
+1234: exp=     4_1_1 and pre=     9_1_1
+1237: exp=  \sum_1_1 and pre=     [_1_1
+1244: exp= f_2_cobra and pre=  \int_1_1
+1249: exp=     i_2_1 and pre=  t_2_tail
+1259: exp=     0_1_1 and pre=     j_2_1
+1260: exp=  \int_1_1 and pre=     j_2_1
+1272: exp=     m_1_1 and pre=     n_1_1
+1288: exp=     L_1_1 and pre=  4_2_nose
+1299: exp=     (_1_1 and pre=     i_2_1
+1303: exp=     c_1_1 and pre=     i_2_1
+1307: exp=     )_1_1 and pre=  x_2_left
+1311: exp=  t_2_tail and pre=  4_2_nose
+1312: exp=     6_1_1 and pre=\sigma_1_1
+1319: exp=     z_1_1 and pre=     2_1_1
+1321: exp=     6_1_1 and pre=\sigma_1_1
+1323: exp=   \mu_1_1 and pre=     n_1_1
+1324: exp=     j_2_1 and pre=     8_1_1
+1326: exp= \sqrt_1_1 and pre=     r_1_1
+1333: exp=     c_1_1 and pre=     (_1_1
+1334: exp= \beta_1_1 and pre=   \mu_1_1
+1338: exp=     d_1_1 and pre=     n_1_1
+1342: exp=     m_1_1 and pre=     n_1_1
+1345: exp=     8_1_1 and pre=\sigma_1_1
+1346: exp=  4_2_nose and pre=  t_2_tail
+1365: exp=\gamma_1_1 and pre=     r_1_1
+1366: exp=   \lt_1_1 and pre=     (_1_1
+1368: exp=   \lt_1_1 and pre=     (_1_1
+1370: exp=  4_2_nose and pre=  t_2_tail
+1375: exp=  4_2_nose and pre=  t_2_tail
+1376: exp=     2_1_1 and pre=\sum_2_bot
+1379: exp=     m_1_1 and pre=     n_1_1
+1382: exp=     (_1_1 and pre= f_2_cobra
+1383: exp=   p_2_ear and pre=  x_2_left
+1398: exp=     i_2_1 and pre=   \lt_1_1
+1405: exp=     i_2_1 and pre=  t_2_tail
+1413: exp=     c_1_1 and pre=     (_1_1
+1416: exp=     u_1_1 and pre=     n_1_1
+1434: exp=  5_2_hook and pre=     5_1_1
+1441: exp=     [_1_1 and pre=     (_1_1
+1447: exp=     c_1_1 and pre=  4_2_nose
+1450: exp=     i_2_1 and pre=     2_1_1
+1460: exp=  5_2_hook and pre=     5_1_1
+1467: exp=     7_1_1 and pre=  x_2_left
+1469: exp=   \lt_1_1 and pre=     (_1_1
+1471: exp=   \lt_1_1 and pre=     2_1_1
+1475: exp=     [_1_1 and pre=    \{_1_1
+1484: exp=     d_1_1 and pre=     a_1_1
+1490: exp=   \lt_1_1 and pre=y_2_flower
+1498: exp=     g_1_1 and pre=     9_1_1
+1501: exp=   \lt_1_1 and pre=y_2_flower
+1522: exp=     b_1_1 and pre=  5_2_hook
+1524: exp=     2_1_1 and pre=\sum_2_bot
+1526: exp=     a_1_1 and pre=     n_1_1
+1538: exp=     (_1_1 and pre=  t_2_tail
+1543: exp=   \lt_1_1 and pre=y_2_flower
+1564: exp=     z_1_1 and pre=     2_1_1
+1568: exp=     i_2_1 and pre= f_2_cobra
+1571: exp=     i_2_1 and pre= f_2_cobra
+1576: exp=     2_1_1 and pre=     z_1_1
+1580: exp=     j_2_1 and pre=     i_2_1
+1589: exp=     z_1_1 and pre=     2_1_1
+1596: exp=     i_2_1 and pre=  t_2_tail
+1598: exp=     i_2_1 and pre=  4_2_nose
+1612: exp=     2_1_1 and pre=     z_1_1
+1631: exp=     9_1_1 and pre=     g_1_1
+1644: exp=     z_1_1 and pre=\sum_2_bot
+1659: exp=  4_2_nose and pre=     2_1_1
+1662: exp=     ]_1_1 and pre=     7_1_1
+1664: exp=   p_2_ear and pre=  x_2_left
+1665: exp=     i_2_1 and pre=     (_1_1
+1685: exp=   p_2_ear and pre=     )_1_1
+1691: exp=     L_1_1 and pre=  t_2_tail
+1698: exp=   p_2_ear and pre=  x_2_left
+1700: exp=\sum_2_bot and pre=     z_1_1
+1702: exp=     z_1_1 and pre=     2_1_1
+1710: exp=     q_1_1 and pre=     9_1_1
+1721: exp=     5_1_1 and pre=     s_1_1
+1725: exp=     2_1_1 and pre=     z_1_1
+1727: exp=     )_1_1 and pre=  x_2_left
+1734: exp= f_2_cobra and pre=  \int_1_1
+1758: exp=     (_1_1 and pre=  t_2_tail
+1759: exp=     g_1_1 and pre=     8_1_1
+1762: exp=  x_2_left and pre=     i_2_1
+1763: exp=     q_1_1 and pre=     a_1_1
+1766: exp=     s_1_1 and pre=     b_1_1
+1771: exp=     (_1_1 and pre=  \sum_1_1
+1781: exp=  x_2_left and pre=     i_2_1
+1794: exp=   p_2_ear and pre=  x_2_left
+1797: exp=     k_1_1 and pre=     h_1_1
+1802: exp=     i_2_1 and pre=  x_2_left
+1807: exp=     s_1_1 and pre= f_2_cobra
+1808: exp=     i_2_1 and pre=     1_1_1
+1810: exp=     (_1_1 and pre=  t_2_tail
+1816: exp=     )_1_1 and pre=  x_2_left
+1830: exp=  t_2_tail and pre=  4_2_nose
+1833: exp=     2_1_1 and pre=     z_1_1
+1835: exp=     L_1_1 and pre=  t_2_tail
+1844: exp= \sqrt_1_1 and pre=\gamma_1_1
+1864: exp=     (_1_1 and pre=     c_1_1
+1865: exp=\sum_2_bot and pre=     z_1_1
+1870: exp=  \int_1_1 and pre= f_2_cobra
+1877: exp=   \lt_1_1 and pre=  t_2_tail
+1883: exp=     )_1_1 and pre=   \gt_1_1
+1889: exp=     z_1_1 and pre=     y_1_1
+1898: exp=     j_2_1 and pre=     z_1_1
+1900: exp=     c_1_1 and pre=     i_2_1
+1903: exp=     L_1_1 and pre=  4_2_nose
+1905: exp=     ]_1_1 and pre=     s_1_1
+1914: exp=     z_1_1 and pre=     y_1_1
+1915: exp=  \int_1_1 and pre= f_2_cobra
+1917: exp=     s_1_1 and pre=  \int_1_1
+1918: exp=  \int_1_1 and pre=     j_2_1
+1926: exp=     )_1_1 and pre=  x_2_left
+1940: exp=  4_2_nose and pre=     c_1_1
+1949: exp=   \gt_1_1 and pre=     )_1_1
+1960: exp=     i_2_1 and pre=y_2_flower
+1963: exp=  x_2_left and pre=     (_1_1
+1988: exp=     k_1_1 and pre=     h_1_1
+1997: exp= f_2_cobra and pre=  \int_1_1
+2014: exp=\gamma_1_1 and pre=     r_1_1
+2019: exp=     s_1_1 and pre= f_2_cobra
+2026: exp=     l_1_1 and pre=     1_1_1
+2030: exp=     L_1_1 and pre=  4_2_nose
+2032: exp=     u_1_1 and pre=     v_1_1
+2038: exp=  \sum_1_1 and pre=    \{_1_1
+2039: exp=     v_1_1 and pre=     u_1_1
+2043: exp=  \sum_1_1 and pre=    \{_1_1
+2053: exp=   \lt_1_1 and pre=     /_1_1
+2054: exp=     z_1_1 and pre=     2_1_1
+2058: exp=  \int_1_1 and pre= f_2_cobra
+2061: exp=     L_1_1 and pre=  4_2_nose
+2070: exp=  \int_1_1 and pre= f_2_cobra
+2086: exp=     x_1_1 and pre=     n_1_1
+2091: exp=     x_1_1 and pre=     n_1_1
+2095: exp=     x_1_1 and pre=     n_1_1
+2098: exp=     l_1_1 and pre=     1_1_1
+2101: exp=    \}_1_1 and pre=  \int_1_1
+2109: exp=  x_2_left and pre=     )_1_1
+2112: exp=     x_1_1 and pre=\alpha_1_1
+2171: exp=     c_1_1 and pre=     2_1_1
+2176: exp=     2_1_1 and pre=     i_2_1
+2197: exp=     c_1_1 and pre=     (_1_1
+2201: exp=   p_2_ear and pre=  x_2_left
+2221: exp=   p_2_ear and pre= \beta_1_1
+2240: exp=     1_1_1 and pre=     j_2_1
+2269: exp=   \lt_1_1 and pre=  4_2_nose
+2270: exp=  4_2_nose and pre=     i_2_1
+2275: exp=     k_1_1 and pre=     n_1_1
+2281: exp=  4_2_nose and pre=  t_2_tail
+2295: exp=  t_2_tail and pre=     l_1_1
+2297: exp=  t_2_tail and pre=  4_2_nose
+2325: exp=  t_2_tail and pre=     2_1_1
+2327: exp=  t_2_tail and pre=  4_2_nose
+2333: exp=     x_1_1 and pre=     z_1_1
+2340: exp=  x_2_left and pre=   p_2_ear
+2371: exp=     (_1_1 and pre=     c_1_1
+2379: exp=     w_1_1 and pre=     v_1_1
+2383: exp=     w_1_1 and pre=     v_1_1
+2392: exp=  x_2_left and pre=   p_2_ear
+2436: exp=     (_1_1 and pre=     c_1_1
+2441: exp=     1_1_1 and pre=  \sum_1_1
+2464: exp=  t_2_tail and pre=     c_1_1
+2468: exp=  t_2_tail and pre=     2_1_1
+2470: exp=  \int_1_1 and pre=     s_1_1
+2499: exp=  t_2_tail and pre=     2_1_1
+2507: exp=\alpha_1_1 and pre=\theta_1_1
+2519: exp=     c_1_1 and pre=     e_1_1
+2534: exp=     b_1_1 and pre=  5_2_hook
+2545: exp=     a_1_1 and pre=     j_2_1
+2547: exp=     u_1_1 and pre=     n_1_1
+2573: exp=     g_1_1 and pre=     9_1_1
+2586: exp=     e_1_1 and pre=  t_2_tail
+2589: exp=  t_2_tail and pre=     i_2_1
+2611: exp=     j_2_1 and pre=     )_1_1
+2617: exp=  t_2_tail and pre=  4_2_nose
+2627: exp=     )_1_1 and pre=  5_2_hook
+2640: exp=     7_1_1 and pre=     0_1_1
+2645: exp=  t_2_tail and pre=     i_2_1
+2663: exp=     i_2_1 and pre=     j_2_1
+2668: exp=     /_1_1 and pre=     (_1_1
+2670: exp=  x_2_left and pre=  4_2_nose
+2677: exp=     i_2_1 and pre=     (_1_1
+2691: exp=     i_2_1 and pre=  t_2_tail
+2713: exp=  t_2_tail and pre=     /_1_1
+2726: exp=     p_1_1 and pre=     v_1_1
+2731: exp=     a_1_1 and pre=     0_1_1
+2733: exp=     i_2_1 and pre=     l_1_1
+2740: exp=  x_2_left and pre=   p_2_ear
+2764: exp=     e_1_1 and pre=     a_1_1
+2765: exp=\infty_1_1 and pre= f_2_cobra
+2772: exp=     x_1_1 and pre=  t_2_tail
+2773: exp=     x_1_1 and pre=  x_2_left
+2774: exp=     5_1_1 and pre=     g_1_1
+2796: exp=     d_1_1 and pre=     0_1_1
+2844: exp=     i_2_1 and pre=     (_1_1
+2849: exp=     c_1_1 and pre=  4_2_nose
+2868: exp=     s_1_1 and pre=  5_2_hook
+2881: exp=\alpha_1_1 and pre=     9_1_1
+2889: exp=     s_1_1 and pre=  5_2_hook
+2894: exp=     2_1_1 and pre=  x_2_left
+2900: exp=     4_1_1 and pre=  4_2_nose
+2908: exp=     k_1_1 and pre=     r_1_1
+2911: exp=     z_1_1 and pre=     2_1_1
+2918: exp=  t_2_tail and pre=     )_1_1
+2920: exp=  \int_1_1 and pre=     i_2_1
+2921: exp=     p_1_1 and pre=     r_1_1
+2930: exp=  5_2_hook and pre=     5_1_1
+2936: exp=  4_2_nose and pre=     i_2_1
+2937: exp=     /_1_1 and pre=     (_1_1
+2938: exp=     (_1_1 and pre=  t_2_tail
+2957: exp=     r_1_1 and pre=     1_1_1
+2961: exp=   p_2_ear and pre=  x_2_left
+3001: exp=     v_1_1 and pre= \sqrt_1_1
+3004: exp=     /_1_1 and pre=  4_2_nose
+3016: exp=     x_1_1 and pre=   \lt_1_1
+3018: exp=     2_1_1 and pre=     z_1_1
+3041: exp=     c_1_1 and pre=     (_1_1
+3044: exp=  4_2_nose and pre=  t_2_tail
+3062: exp=     (_1_1 and pre=     i_2_1
+3111: exp=     d_1_1 and pre=     a_1_1
+3116: exp= \beta_1_1 and pre=   p_2_ear
+3131: exp=  t_2_tail and pre=     i_2_1
+3132: exp=  t_2_tail and pre=  4_2_nose
+3152: exp=  t_2_tail and pre=     i_2_1
+3160: exp=     )_1_1 and pre=  x_2_left
+3182: exp=     )_1_1 and pre=  x_2_left
+3185: exp=     /_1_1 and pre=  4_2_nose
+3212: exp=     6_1_1 and pre=     b_1_1
+3222: exp=     d_1_1 and pre=     0_1_1
+3233: exp=  t_2_tail and pre=     i_2_1
+3246: exp=     (_1_1 and pre=  t_2_tail
+3278: exp=     h_1_1 and pre=     k_1_1
+3286: exp=y_2_flower and pre=     y_1_1
+3294: exp=     /_1_1 and pre=     1_1_1
+3300: exp=     5_1_1 and pre=    \{_1_1
+3309: exp=     y_1_1 and pre=     9_1_1
+3316: exp=     7_1_1 and pre=  x_2_left
+3321: exp=  5_2_hook and pre= f_2_cobra
+3322: exp=     z_1_1 and pre=     a_1_1
+3325: exp=     7_1_1 and pre=  x_2_left
+3329: exp=  5_2_hook and pre=     j_2_1
+3353: exp=     c_1_1 and pre=     e_1_1
+3361: exp= f_2_cobra and pre=     s_1_1
+3365: exp=     c_1_1 and pre=     e_1_1
+3381: exp=     i_2_1 and pre=     (_1_1
+3382: exp=   p_2_ear and pre=  x_2_left
+3391: exp=  5_2_hook and pre=     5_1_1
+3397: exp=   p_2_ear and pre=  x_2_left
+3412: exp=  4_2_nose and pre=  t_2_tail
+3414: exp=     r_1_1 and pre= \sqrt_1_1
+3421: exp=     n_1_1 and pre=     4_1_1
+3425: exp=     l_1_1 and pre= f_2_cobra
+3462: exp=     r_1_1 and pre=   \lt_1_1
+3489: exp= f_2_cobra and pre=  \int_1_1
+3492: exp=     i_2_1 and pre=     (_1_1
+3501: exp=     i_2_1 and pre=   \lt_1_1
+3502: exp=     i_2_1 and pre=  x_2_left
+3504: exp=     4_1_1 and pre=     9_1_1
+3510: exp= f_2_cobra and pre=     j_2_1
+3522: exp=     h_1_1 and pre=     4_1_1
+3534: exp=     0_1_1 and pre=     8_1_1
+3536: exp=  t_2_tail and pre=  4_2_nose
+3566: exp=     )_1_1 and pre=   \gt_1_1
+3586: exp=  x_2_left and pre=     (_1_1
+3588: exp=     3_1_1 and pre=     5_1_1
+3595: exp=     )_1_1 and pre=  x_2_left
+3596: exp=     p_1_1 and pre=     7_1_1
+3603: exp=     s_1_1 and pre=  5_2_hook
+3605: exp=     2_1_1 and pre=     7_1_1
+3611: exp=  x_2_left and pre=     i_2_1
+3614: exp=     )_1_1 and pre=  x_2_left
+3620: exp=     (_1_1 and pre=     c_1_1
+3622: exp=     c_1_1 and pre=     (_1_1
+3623: exp=     c_1_1 and pre=     i_2_1
+3657: exp= \beta_1_1 and pre=     p_1_1
+3661: exp=     y_1_1 and pre=     g_1_1
+3668: exp=     )_1_1 and pre=  x_2_left
+3669: exp=     2_1_1 and pre=  4_2_nose
+3674: exp=     )_1_1 and pre=  x_2_left
+3682: exp=     i_2_1 and pre=     (_1_1
+3689: exp=     g_1_1 and pre=     q_1_1
+3696: exp=     z_1_1 and pre=     3_1_1
+3697: exp=     k_1_1 and pre=     h_1_1
+3698: exp=     k_1_1 and pre=     e_1_1
+3706: exp=     5_1_1 and pre=  \int_1_1
+3716: exp=     u_1_1 and pre=     8_1_1
+3729: exp=     a_1_1 and pre=     4_1_1
+3732: exp=     r_1_1 and pre=     i_2_1
+3740: exp=     j_2_1 and pre=     i_2_1
+3741: exp=     y_1_1 and pre=     g_1_1
+3748: exp=  x_2_left and pre=     (_1_1
+3753: exp=  x_2_left and pre=   p_2_ear
+3759: exp=  4_2_nose and pre=  t_2_tail
+3762: exp=     )_1_1 and pre=  x_2_left
+3764: exp=     z_1_1 and pre=     2_1_1
+3765: exp=     2_1_1 and pre=     z_1_1
+3768: exp=     2_1_1 and pre=     z_1_1
+3771: exp=     )_1_1 and pre=  x_2_left
+3792: exp=     1_1_1 and pre=     )_1_1
+3794: exp=  x_2_left and pre=     (_1_1
+3797: exp=  4_2_nose and pre=  t_2_tail
+3798: exp=  4_2_nose and pre=  t_2_tail
+3799: exp=  4_2_nose and pre=  t_2_tail
+3810: exp=   \lt_1_1 and pre=  4_2_nose
+3814: exp=     )_1_1 and pre=  x_2_left
+3850: exp=     )_1_1 and pre=  x_2_left
+3872: exp=     x_1_1 and pre=     /_1_1
+3873: exp=     (_1_1 and pre=     i_2_1
+3874: exp=     (_1_1 and pre=     /_1_1
+3882: exp=     5_1_1 and pre=     s_1_1
+3884: exp=     c_1_1 and pre=     (_1_1
+3903: exp=     k_1_1 and pre=     r_1_1
+3916: exp= f_2_cobra and pre=     7_1_1
+3919: exp=     )_1_1 and pre=  x_2_left
+3937: exp= f_2_cobra and pre=     1_1_1
+3948: exp=     l_1_1 and pre=  t_2_tail
+3951: exp=\sum_2_bot and pre=     z_1_1
+3964: exp=  t_2_tail and pre=     i_2_1
+3973: exp=   p_2_ear and pre=     2_1_1
+4003: exp=     z_1_1 and pre=     2_1_1
+4007: exp=     9_1_1 and pre=     3_1_1
+4009: exp=  x_2_left and pre=     s_1_1
+4015: exp=  x_2_left and pre=     s_1_1
+4018: exp=  t_2_tail and pre=     (_1_1
+4022: exp=   p_2_ear and pre=  x_2_left
+4026: exp=     9_1_1 and pre=     3_1_1
+4027: exp=     )_1_1 and pre=   \gt_1_1
+4031: exp=     )_1_1 and pre=  x_2_left
+4032: exp=  t_2_tail and pre=  4_2_nose
+4035: exp=  x_2_left and pre=     n_1_1
+4039: exp=     /_1_1 and pre=     7_1_1
+4043: exp=     s_1_1 and pre=     5_1_1
+4044: exp=     1_1_1 and pre=     i_2_1
+4045: exp=     s_1_1 and pre=  5_2_hook
+4050: exp=     g_1_1 and pre=     y_1_1
+4056: exp=     5_1_1 and pre=     9_1_1
+4062: exp=     )_1_1 and pre=  x_2_left
+4070: exp=     c_1_1 and pre=     (_1_1
+4071: exp=     a_1_1 and pre=\alpha_1_1
+4072: exp=     1_1_1 and pre=\infty_1_1
+4073: exp=     i_2_1 and pre=     (_1_1
+4078: exp=\theta_1_1 and pre=     a_1_1
+4083: exp=  5_2_hook and pre=     s_1_1
+4120: exp=\alpha_1_1 and pre=     x_1_1
+4129: exp=  4_2_nose and pre=     (_1_1
+4159: exp=     z_1_1 and pre=\sum_2_bot
+4162: exp=     n_1_1 and pre=     m_1_1
+4174: exp=\alpha_1_1 and pre=\sigma_1_1
+4194: exp=\alpha_1_1 and pre=     v_1_1
+4195: exp=     m_1_1 and pre=     n_1_1
+4198: exp=   p_2_ear and pre=  x_2_left
+4211: exp=     (_1_1 and pre=     i_2_1
+4213: exp=  t_2_tail and pre=   \lt_1_1
+4218: exp=     )_1_1 and pre=     i_2_1
+4235: exp=     s_1_1 and pre=     5_1_1
+4237: exp=     s_1_1 and pre=  5_2_hook
+4238: exp=     s_1_1 and pre=  5_2_hook
+4239: exp=     1_1_1 and pre=     i_2_1
+4247: exp=\alpha_1_1 and pre=     d_1_1
+4256: exp=     (_1_1 and pre=  x_2_left
+4269: exp=     9_1_1 and pre=     g_1_1
+4284: exp=  t_2_tail and pre=     c_1_1
+4319: exp=  x_2_left and pre=     (_1_1
+4327: exp=  t_2_tail and pre=  4_2_nose
+4337: exp=     c_1_1 and pre=  x_2_left
+4339: exp=     i_2_1 and pre=     1_1_1
+4349: exp=  t_2_tail and pre=  x_2_left
+4350: exp=     4_1_1 and pre=     a_1_1
+4371: exp=     )_1_1 and pre=  x_2_left
+4385: exp=     n_1_1 and pre=     r_1_1
+4390: exp=     a_1_1 and pre=     3_1_1
+4391: exp=  5_2_hook and pre=     s_1_1
+4394: exp=  5_2_hook and pre=     s_1_1
+4402: exp=  5_2_hook and pre=     s_1_1
+4416: exp=  4_2_nose and pre=     i_2_1
+4428: exp=     v_1_1 and pre=     u_1_1
+4440: exp=     i_2_1 and pre=     1_1_1
+4444: exp=     2_1_1 and pre=     z_1_1
+4467: exp=   \lt_1_1 and pre=     r_1_1
+4468: exp=  x_2_left and pre=   p_2_ear
+4485: exp=     d_1_1 and pre=     8_1_1
+4487: exp=     )_1_1 and pre=   \lt_1_1
+4501: exp=     )_1_1 and pre=  x_2_left
+4507: exp=     i_2_1 and pre=     2_1_1
+4517: exp=     d_1_1 and pre=  x_2_left
+4526: exp=     j_2_1 and pre=     i_2_1
+4532: exp=  t_2_tail and pre=     i_2_1
+4545: exp=     4_1_1 and pre=     y_1_1
+4550: exp=     2_1_1 and pre=     z_1_1
+4559: exp=     1_1_1 and pre=     y_1_1
+4572: exp=     7_1_1 and pre=  x_2_left
+4584: exp=     s_1_1 and pre=  5_2_hook
+4586: exp=     s_1_1 and pre=  5_2_hook
+4595: exp=     h_1_1 and pre=     a_1_1
+4599: exp=     i_2_1 and pre=  5_2_hook
+4602: exp=     8_1_1 and pre=\infty_1_1
+4612: exp=     8_1_1 and pre=     q_1_1
+4648: exp=     7_1_1 and pre=  x_2_left
+4649: exp=  x_2_left and pre=     c_1_1
+4663: exp=     g_1_1 and pre=     9_1_1
+4672: exp=     0_1_1 and pre=     8_1_1
+4690: exp=   \lt_1_1 and pre=     i_2_1
+4696: exp=     )_1_1 and pre=  x_2_left
+4704: exp=     )_1_1 and pre=  x_2_left
+4727: exp=     2_1_1 and pre=     z_1_1
+4729: exp=     9_1_1 and pre=     g_1_1
+4737: exp=     7_1_1 and pre=     )_1_1
+4741: exp=  x_2_left and pre=     )_1_1
+4752: exp=     b_1_1 and pre=     6_1_1
+4753: exp=     r_1_1 and pre=     v_1_1
+4757: exp=     1_1_1 and pre=     7_1_1
+4765: exp=     b_1_1 and pre=     6_1_1
+4773: exp=     h_1_1 and pre=     n_1_1
+4794: exp=     i_2_1 and pre=     (_1_1
+4795: exp=     i_2_1 and pre=     c_1_1
+4802: exp=     h_1_1 and pre=  t_2_tail
+4803: exp=     s_1_1 and pre=  5_2_hook
+4815: exp=     1_1_1 and pre=     7_1_1
+4818: exp=     (_1_1 and pre=     i_2_1
+4829: exp=     2_1_1 and pre=     z_1_1
+4837: exp=  t_2_tail and pre=     i_2_1
+4841: exp=     j_2_1 and pre=     i_2_1
+4848: exp=  t_2_tail and pre=  4_2_nose
+4862: exp=     5_1_1 and pre=  \int_1_1
+4873: exp=  4_2_nose and pre=  t_2_tail
+4876: exp=  4_2_nose and pre=     (_1_1
+4881: exp=  5_2_hook and pre=     s_1_1
+4944: exp=     v_1_1 and pre=     i_2_1
+4954: exp=  4_2_nose and pre=  t_2_tail
+4964: exp=     a_1_1 and pre=     0_1_1
+4966: exp=  5_2_hook and pre=     s_1_1
+4969: exp=     r_1_1 and pre= \sqrt_1_1
+4971: exp=  4_2_nose and pre=     (_1_1
+4983: exp=     i_2_1 and pre=     (_1_1
+4988: exp=     7_1_1 and pre=  x_2_left
+4995: exp= \sqrt_1_1 and pre=     i_2_1
+5001: exp=  5_2_hook and pre=  x_2_left
+5008: exp=     j_2_1 and pre=     7_1_1
+5011: exp=     )_1_1 and pre=  x_2_left
+5020: exp=     (_1_1 and pre=     i_2_1
+5032: exp=     d_1_1 and pre=     a_1_1
+5040: exp=     1_1_1 and pre=     i_2_1
+5042: exp=  5_2_hook and pre= f_2_cobra
+5046: exp=     j_2_1 and pre=     )_1_1
+5048: exp=     4_1_1 and pre=     h_1_1
+5055: exp=     y_1_1 and pre=     g_1_1
+5061: exp=     4_1_1 and pre=     3_1_1
+5066: exp=     y_1_1 and pre=     q_1_1
+5072: exp=     u_1_1 and pre=   \mu_1_1
+5078: exp=     )_1_1 and pre=  x_2_left
+5079: exp=     )_1_1 and pre=  x_2_left
+5084: exp=     g_1_1 and pre=     9_1_1
+5090: exp=     7_1_1 and pre=     y_1_1
+5092: exp=     4_1_1 and pre=     6_1_1
+5094: exp=     n_1_1 and pre=  x_2_left
+5107: exp=     1_1_1 and pre=     7_1_1
+5113: exp=  x_2_left and pre=   p_2_ear
+5121: exp=\alpha_1_1 and pre=     2_1_1
+5149: exp=     i_2_1 and pre=     (_1_1
+5157: exp=  x_2_left and pre=     )_1_1
+5162: exp=  5_2_hook and pre=     5_1_1
+5180: exp=  5_2_hook and pre=     s_1_1
+5182: exp=     u_1_1 and pre=     0_1_1
+5187: exp=     )_1_1 and pre=  x_2_left
+5200: exp=     )_1_1 and pre=  x_2_left
+5202: exp=     c_1_1 and pre=     (_1_1
+5205: exp=  5_2_hook and pre=     5_1_1
+5206: exp= f_2_cobra and pre=     p_1_1
+5208: exp=     v_1_1 and pre=y_2_flower
+5216: exp=y_2_flower and pre=  x_2_left
+5220: exp=     c_1_1 and pre=  x_2_left
+5227: exp=     )_1_1 and pre=  x_2_left
+5246: exp=     1_1_1 and pre=     d_1_1
+5250: exp=     9_1_1 and pre=     y_1_1
+5255: exp=     d_1_1 and pre=     x_1_1
+5268: exp=     x_1_1 and pre=     z_1_1
+5279: exp=     7_1_1 and pre=  x_2_left
+5283: exp=     8_1_1 and pre=     q_1_1
+5291: exp=     1_1_1 and pre=     i_2_1
+5300: exp=     r_1_1 and pre=     h_1_1
+5317: exp=     1_1_1 and pre=     i_2_1
+5320: exp=     (_1_1 and pre=     i_2_1
+5327: exp=  x_2_left and pre=     c_1_1
+5329: exp=     )_1_1 and pre=  5_2_hook
+5336: exp=     5_1_1 and pre=     6_1_1
+5337: exp=     j_2_1 and pre=     )_1_1
+5344: exp=     7_1_1 and pre=  x_2_left
+5349: exp=     (_1_1 and pre=     b_1_1
+5354: exp=  4_2_nose and pre=     2_1_1
+5357: exp=  4_2_nose and pre=     x_1_1
+5363: exp=     )_1_1 and pre=  5_2_hook
+5373: exp=     7_1_1 and pre=  x_2_left
+5377: exp=     m_1_1 and pre=     n_1_1
+5378: exp=     g_1_1 and pre=     y_1_1
+5383: exp=     5_1_1 and pre=  \int_1_1
+5385: exp=     2_1_1 and pre=     d_1_1
+5389: exp=y_2_flower and pre=     y_1_1
+5405: exp=     n_1_1 and pre=  x_2_left
+5410: exp=     1_1_1 and pre=     i_2_1
+5412: exp=     x_1_1 and pre=     i_2_1
+5414: exp=     )_1_1 and pre=  x_2_left
+5421: exp=     7_1_1 and pre=  x_2_left
+5422: exp=     m_1_1 and pre=     n_1_1
+5427: exp=     7_1_1 and pre=  x_2_left
+5437: exp=     1_1_1 and pre=     n_1_1
+5447: exp=     (_1_1 and pre=  4_2_nose
+5448: exp=  x_2_left and pre=     j_2_1
+5458: exp=     7_1_1 and pre=  x_2_left
+5459: exp=     7_1_1 and pre=     )_1_1
+5482: exp=     c_1_1 and pre=     (_1_1
+5484: exp=     )_1_1 and pre=  x_2_left
+5491: exp= \sqrt_1_1 and pre=     r_1_1
+5496: exp=     3_1_1 and pre=  x_2_left
+5504: exp=     )_1_1 and pre=  x_2_left
+5514: exp=     v_1_1 and pre=     r_1_1
+5529: exp=     g_1_1 and pre=     9_1_1
+5532: exp=     2_1_1 and pre=     i_2_1
+5552: exp=     p_1_1 and pre= \beta_1_1
+5560: exp=     k_1_1 and pre=     h_1_1
+5561: exp=     g_1_1 and pre=     q_1_1
+5573: exp=     k_1_1 and pre=     b_1_1
+5579: exp=     )_1_1 and pre=  x_2_left
+5607: exp=     b_1_1 and pre=     h_1_1
+5624: exp=     u_1_1 and pre=     v_1_1
+5650: exp=     )_1_1 and pre=  x_2_left
+5672: exp=     r_1_1 and pre=   \lt_1_1
+5679: exp=     5_1_1 and pre=  5_2_hook
+5709: exp=     )_1_1 and pre=     /_1_1
+5713: exp=     i_2_1 and pre=     j_2_1
+5715: exp=     0_1_1 and pre=     c_1_1
+5736: exp=  \sum_1_1 and pre=     q_1_1
+5750: exp=     r_1_1 and pre= \sqrt_1_1
+5756: exp=     m_1_1 and pre=     n_1_1
+5774: exp=     a_1_1 and pre=     d_1_1
+5796: exp=     h_1_1 and pre=     a_1_1
+5809: exp=     a_1_1 and pre=\sum_2_bot
+5824: exp=     v_1_1 and pre=     r_1_1
+5825: exp=     v_1_1 and pre=     i_2_1
+5833: exp=  \sum_1_1 and pre=     a_1_1
+5840: exp=     9_1_1 and pre=     g_1_1
+5850: exp=     q_1_1 and pre=     9_1_1
+5856: exp=     )_1_1 and pre=  x_2_left
+5864: exp=     9_1_1 and pre=     q_1_1
+5867: exp=     )_1_1 and pre=  x_2_left
+5877: exp=     8_1_1 and pre=     2_1_1
+5878: exp=     2_1_1 and pre=     z_1_1
+5885: exp=     )_1_1 and pre=  x_2_left
+5888: exp=     )_1_1 and pre=  x_2_left
+5897: exp=     )_1_1 and pre=  x_2_left
+5905: exp=     i_2_1 and pre=  t_2_tail
+5924: exp=     2_1_1 and pre=     z_1_1
+5928: exp=     j_2_1 and pre=     )_1_1
+5929: exp=  t_2_tail and pre=     /_1_1
+5931: exp=     s_1_1 and pre=  5_2_hook
+5965: exp=  t_2_tail and pre=  \int_1_1
+5976: exp=     z_1_1 and pre=     2_1_1
+5989: exp=     6_1_1 and pre=     l_1_1
+5990: exp=  t_2_tail and pre=     /_1_1
+5995: exp=  5_2_hook and pre=     s_1_1
+5996: exp=     2_1_1 and pre=     z_1_1
+5999: exp=     2_1_1 and pre=     z_1_1
+6001: exp=  t_2_tail and pre=     7_1_1
+6007: exp=     2_1_1 and pre=     z_1_1
+6022: exp=     2_1_1 and pre=     z_1_1
+6030: exp= \beta_1_1 and pre=\infty_1_1
+6048: exp=  x_2_left and pre=     c_1_1
+6049: exp=     (_1_1 and pre=     j_2_1
+6051: exp=     (_1_1 and pre=y_2_flower
+6057: exp=     (_1_1 and pre=     j_2_1
+6063: exp=     n_1_1 and pre=     r_1_1
+6070: exp=     n_1_1 and pre=     r_1_1
+6078: exp=     u_1_1 and pre=     a_1_1
+6079: exp=  4_2_nose and pre=     (_1_1
+6081: exp=     u_1_1 and pre=     n_1_1
+6082: exp=     5_1_1 and pre=     r_1_1
+6086: exp=     7_1_1 and pre=     p_1_1
+6088: exp=     i_2_1 and pre=     2_1_1
+6094: exp=     3_1_1 and pre=     8_1_1
+6102: exp=  4_2_nose and pre=     (_1_1
+6105: exp=     7_1_1 and pre=     8_1_1
+6116: exp= f_2_cobra and pre=\infty_1_1
+6124: exp=  t_2_tail and pre=  4_2_nose
+6129: exp=   p_2_ear and pre=     0_1_1
+6137: exp=     /_1_1 and pre=     (_1_1
+6140: exp=     i_2_1 and pre=     1_1_1
+6151: exp=     2_1_1 and pre=     8_1_1
+6166: exp=     4_1_1 and pre=     6_1_1
+6172: exp=     (_1_1 and pre= f_2_cobra
+6181: exp=     4_1_1 and pre=     6_1_1
+6185: exp=     2_1_1 and pre=     8_1_1
+6195: exp=     s_1_1 and pre=     j_2_1
+6196: exp=   p_2_ear and pre=  x_2_left
+6223: exp=     n_1_1 and pre=     r_1_1
+6227: exp=     4_1_1 and pre=     h_1_1
+6228: exp=     9_1_1 and pre=     g_1_1
+6241: exp=     h_1_1 and pre=     k_1_1
+6256: exp=     u_1_1 and pre=     r_1_1
+6258: exp=     )_1_1 and pre=  x_2_left
+6263: exp=     )_1_1 and pre=  x_2_left
+6282: exp=     1_1_1 and pre=     l_1_1
+6285: exp=     (_1_1 and pre=  t_2_tail
+6300: exp=  \int_1_1 and pre= f_2_cobra
+6322: exp=  \int_1_1 and pre= f_2_cobra
+6343: exp=     d_1_1 and pre=\alpha_1_1
+6367: exp=     z_1_1 and pre=     2_1_1
+6380: exp=  t_2_tail and pre=  4_2_nose
+6395: exp=     i_2_1 and pre=  \int_1_1
+6407: exp=  x_2_left and pre=     )_1_1
+6408: exp=     2_1_1 and pre=     z_1_1
+6409: exp=     z_1_1 and pre=     2_1_1
+6440: exp=     2_1_1 and pre=     z_1_1
+6443: exp=     2_1_1 and pre=     z_1_1
+6455: exp=    \{_1_1 and pre=     q_1_1
+6499: exp=     z_1_1 and pre=     2_1_1
+6507: exp=    \}_1_1 and pre=     y_1_1
+6510: exp=     (_1_1 and pre=     c_1_1
+6512: exp=    \}_1_1 and pre=     3_1_1
+6518: exp=  4_2_nose and pre=  t_2_tail
+6524: exp=  t_2_tail and pre=     (_1_1
+6525: exp=  t_2_tail and pre=     (_1_1
+6526: exp=     g_1_1 and pre=     a_1_1
+6530: exp=     b_1_1 and pre=  t_2_tail
+6543: exp=  t_2_tail and pre=     (_1_1
+6546: exp=  4_2_nose and pre=     i_2_1
+6584: exp=     a_1_1 and pre=     9_1_1
+6606: exp=  4_2_nose and pre=  t_2_tail
+6649: exp=     i_2_1 and pre=  t_2_tail
+6674: exp=    \{_1_1 and pre=     4_1_1
+6705: exp=    \}_1_1 and pre=     4_1_1
+6716: exp=     i_2_1 and pre=  t_2_tail
+6742: exp=    \}_1_1 and pre=     3_1_1
+6747: exp=    \{_1_1 and pre=     [_1_1
+6749: exp=    \}_1_1 and pre=     3_1_1
+6753: exp=     z_1_1 and pre=     2_1_1
+6762: exp=  t_2_tail and pre=  4_2_nose
+6784: exp=    \{_1_1 and pre=     [_1_1
+6799: exp=  t_2_tail and pre=     (_1_1
+6823: exp=     z_1_1 and pre=     2_1_1
+6839: exp=     )_1_1 and pre=  x_2_left
+6845: exp=    \}_1_1 and pre=  t_2_tail
+6910: exp=     )_1_1 and pre=  x_2_left
+6935: exp=    \}_1_1 and pre=     3_1_1
+6956: exp=  x_2_left and pre=     )_1_1
+6960: exp=  \int_1_1 and pre= f_2_cobra
+6970: exp=  4_2_nose and pre=  t_2_tail
+6978: exp=     z_1_1 and pre=     2_1_1
+6984: exp=  5_2_hook and pre=     b_1_1
+6990: exp= f_2_cobra and pre=  \int_1_1
+6993: exp=  x_2_left and pre=  5_2_hook
+7003: exp=     i_2_1 and pre=     2_1_1
+7008: exp=     2_1_1 and pre=     z_1_1
+7010: exp=\sum_2_bot and pre=     2_1_1
+7029: exp=     c_1_1 and pre=     (_1_1
+7084: exp=     i_2_1 and pre=     x_1_1
+7088: exp=     i_2_1 and pre=  x_2_left
+7107: exp=     1_1_1 and pre=     i_2_1
+7114: exp=  \sum_1_1 and pre=    \{_1_1
+7118: exp=  4_2_nose and pre=  t_2_tail
+7121: exp=     5_1_1 and pre=  5_2_hook
+7122: exp=  4_2_nose and pre=  t_2_tail
+7126: exp=  4_2_nose and pre=  t_2_tail
+7142: exp=\sum_2_bot and pre=     2_1_1
+7162: exp=     2_1_1 and pre=     z_1_1
+7173: exp=     2_1_1 and pre=     z_1_1
+7174: exp=     2_1_1 and pre=     z_1_1
+7187: exp=     )_1_1 and pre=y_2_flower
+7282: exp=     m_1_1 and pre=     n_1_1
+7285: exp=     4_1_1 and pre=     u_1_1
+7288: exp=     3_1_1 and pre=    \}_1_1
+7289: exp=     2_1_1 and pre=     z_1_1
+7290: exp=     c_1_1 and pre=y_2_flower
+7295: exp=     2_1_1 and pre=     a_1_1
+7298: exp=     9_1_1 and pre=     q_1_1
+7310: exp=     9_1_1 and pre=     q_1_1
+7329: exp=  \int_1_1 and pre=     5_1_1
+7335: exp=  5_2_hook and pre=     s_1_1
+7336: exp=     b_1_1 and pre=     a_1_1
+7352: exp=  t_2_tail and pre=     L_1_1
+7364: exp=     n_1_1 and pre=     r_1_1
+7365: exp=\infty_1_1 and pre=     8_1_1
+7371: exp=     2_1_1 and pre=     z_1_1
+7375: exp=     )_1_1 and pre=  5_2_hook
+7382: exp=     y_1_1 and pre=     j_2_1
+7388: exp=  4_2_nose and pre=     2_1_1
+7390: exp=     3_1_1 and pre=     z_1_1
+7395: exp=     i_2_1 and pre=     1_1_1
+7397: exp=     j_2_1 and pre=     8_1_1
+7402: exp=     2_1_1 and pre=     z_1_1
+7447: exp=  4_2_nose and pre=  t_2_tail
+7461: exp=     s_1_1 and pre=  \int_1_1
+7490: exp=  5_2_hook and pre=     3_1_1
+7523: exp=     2_1_1 and pre=     6_1_1
+7525: exp=  5_2_hook and pre=  4_2_nose
+7529: exp=     q_1_1 and pre=     a_1_1
+7550: exp=     v_1_1 and pre=     r_1_1
+7555: exp=     v_1_1 and pre=y_2_flower
+7564: exp=  4_2_nose and pre=     L_1_1
+7566: exp=  4_2_nose and pre=     L_1_1
+7573: exp=     y_1_1 and pre=     g_1_1
+7580: exp=     4_1_1 and pre=  5_2_hook
+7591: exp=     8_1_1 and pre=\infty_1_1
+7593: exp=  t_2_tail and pre=  4_2_nose
+7607: exp=   \gt_1_1 and pre=     )_1_1
+7620: exp=     v_1_1 and pre=     w_1_1
+7626: exp=     z_1_1 and pre=     2_1_1
+7628: exp=  t_2_tail and pre=     L_1_1
+7634: exp= f_2_cobra and pre=  \int_1_1
+7635: exp=  \int_1_1 and pre= f_2_cobra
+7641: exp=  t_2_tail and pre=     c_1_1
+7650: exp=\infty_1_1 and pre=     p_1_1
+7658: exp=     (_1_1 and pre=     j_2_1
+7660: exp=     )_1_1 and pre=  x_2_left
+7662: exp=     )_1_1 and pre=  x_2_left
+7663: exp=     2_1_1 and pre=     z_1_1
+7667: exp=     9_1_1 and pre=     a_1_1
+7687: exp=  t_2_tail and pre=  4_2_nose
+7688: exp=  t_2_tail and pre=  4_2_nose
+7693: exp=     z_1_1 and pre=     2_1_1
+7695: exp=     )_1_1 and pre=  x_2_left
+7701: exp=     )_1_1 and pre=  x_2_left
+7702: exp=     3_1_1 and pre=  x_2_left
+7707: exp= f_2_cobra and pre=  \int_1_1
+7713: exp=     2_1_1 and pre=     1_1_1
+7715: exp=  \sum_1_1 and pre=    \{_1_1
+7723: exp=     d_1_1 and pre=\infty_1_1
+7724: exp=\infty_1_1 and pre=     8_1_1
+7726: exp=     e_1_1 and pre=     b_1_1
+7741: exp=   \lt_1_1 and pre=     (_1_1
+7742: exp=     L_1_1 and pre=  t_2_tail
+7749: exp=     )_1_1 and pre=  x_2_left
+7755: exp=  4_2_nose and pre=     L_1_1
+7758: exp=     z_1_1 and pre=     2_1_1
+7774: exp=   \lt_1_1 and pre=     (_1_1
+7779: exp=     )_1_1 and pre=     7_1_1
+7801: exp=     2_1_1 and pre=     z_1_1
+7803: exp= f_2_cobra and pre= \sqrt_1_1
+7805: exp=     c_1_1 and pre=     [_1_1
+7817: exp=  4_2_nose and pre=  t_2_tail
+7819: exp=     )_1_1 and pre=   \gt_1_1
+7837: exp=     )_1_1 and pre=  x_2_left
+7840: exp=  t_2_tail and pre=  4_2_nose
+7848: exp=     c_1_1 and pre=     (_1_1
+7855: exp=     2_1_1 and pre=     z_1_1
+7866: exp=y_2_flower and pre=     1_1_1
+7872: exp=y_2_flower and pre=     y_1_1
+7875: exp=  t_2_tail and pre=  4_2_nose
+7878: exp=\sum_2_bot and pre=  \sum_1_1
+7892: exp=   \gt_1_1 and pre=     )_1_1
+7902: exp=     2_1_1 and pre=     z_1_1
+7906: exp=     (_1_1 and pre=  t_2_tail
+7907: exp=  t_2_tail and pre=     (_1_1
+7908: exp=     (_1_1 and pre=  t_2_tail
+7910: exp=     (_1_1 and pre=  t_2_tail
+7917: exp=     9_1_1 and pre=     4_1_1
+7932: exp=     a_1_1 and pre=     d_1_1
+7936: exp=     2_1_1 and pre=  x_2_left
+7938: exp=     g_1_1 and pre=     9_1_1
+7939: exp=     3_1_1 and pre=     5_1_1
+7943: exp=     )_1_1 and pre=  t_2_tail
+7948: exp=     2_1_1 and pre=     z_1_1
+7970: exp=  \int_1_1 and pre= \sqrt_1_1
+7989: exp=     z_1_1 and pre=     2_1_1
+7996: exp=  x_2_left and pre=     )_1_1
+7997: exp=  x_2_left and pre=     )_1_1
+8001: exp=     2_1_1 and pre=     z_1_1
+8011: exp=  4_2_nose and pre=   \lt_1_1
+8012: exp=     /_1_1 and pre=y_2_flower
+8026: exp=  x_2_left and pre=     )_1_1
+8028: exp=  x_2_left and pre=     )_1_1
+8029: exp=  t_2_tail and pre=     (_1_1
+8035: exp=     4_1_1 and pre=     y_1_1
+8039: exp=     2_1_1 and pre=     z_1_1
+8042: exp=     a_1_1 and pre=     e_1_1
+8046: exp=     a_1_1 and pre=\alpha_1_1
+8050: exp=     5_1_1 and pre=     8_1_1
+8051: exp=  4_2_nose and pre=\alpha_1_1
+8053: exp=     b_1_1 and pre=  5_2_hook
+8055: exp=     b_1_1 and pre=  5_2_hook
+8076: exp=  4_2_nose and pre=     i_2_1
+8083: exp=     g_1_1 and pre=\theta_1_1
+8084: exp=     g_1_1 and pre=     q_1_1
+8088: exp=  4_2_nose and pre=     L_1_1
+8096: exp=   \lt_1_1 and pre=     (_1_1
+8103: exp=  4_2_nose and pre=  t_2_tail
+8126: exp=     a_1_1 and pre=     9_1_1
+8130: exp=     i_2_1 and pre=  4_2_nose
+8153: exp=     k_1_1 and pre=     1_1_1
+8165: exp=\infty_1_1 and pre=     8_1_1
+8182: exp=     1_1_1 and pre=     7_1_1
+8196: exp=     (_1_1 and pre= f_2_cobra
+8200: exp=     c_1_1 and pre=     (_1_1
+8201: exp=     c_1_1 and pre=     (_1_1
+8203: exp=     y_1_1 and pre=     8_1_1
+8206: exp=     (_1_1 and pre= \sqrt_1_1
+8215: exp= f_2_cobra and pre=  \int_1_1
+8220: exp=     1_1_1 and pre=     n_1_1
+8231: exp=     3_1_1 and pre=   p_2_ear
+8238: exp=     b_1_1 and pre=     6_1_1
+8244: exp= f_2_cobra and pre= \sqrt_1_1
+8245: exp=     r_1_1 and pre= f_2_cobra
+8249: exp=     )_1_1 and pre=y_2_flower
+8250: exp= f_2_cobra and pre=     r_1_1
+8278: exp=     a_1_1 and pre=     2_1_1
+8280: exp=     5_1_1 and pre=     9_1_1
+8286: exp=  t_2_tail and pre=  4_2_nose
+8289: exp=  t_2_tail and pre=  4_2_nose
+8293: exp=     a_1_1 and pre=     9_1_1
+8304: exp=     2_1_1 and pre=     z_1_1
+8305: exp=     2_1_1 and pre=\sum_2_bot
+8310: exp=     c_1_1 and pre=     (_1_1
+8318: exp=   p_2_ear and pre=  x_2_left
+8323: exp=y_2_flower and pre=     /_1_1
+8326: exp=     a_1_1 and pre=     2_1_1
+8328: exp=     p_1_1 and pre= \beta_1_1
+8343: exp=     L_1_1 and pre=  t_2_tail
+8349: exp=     1_1_1 and pre=  x_2_left
+8350: exp=   p_2_ear and pre=     )_1_1
+8368: exp=     m_1_1 and pre=     n_1_1
+8370: exp=     m_1_1 and pre=     n_1_1
+8381: exp=  \int_1_1 and pre= \sqrt_1_1
+8387: exp=y_2_flower and pre=     i_2_1
+8388: exp=y_2_flower and pre=     c_1_1
+8395: exp=   p_2_ear and pre=     )_1_1
+8398: exp=     c_1_1 and pre=     (_1_1
+8402: exp=y_2_flower and pre=     /_1_1
+8405: exp=     L_1_1 and pre=  t_2_tail
+8408: exp= f_2_cobra and pre=  \int_1_1
+8415: exp=  4_2_nose and pre=  t_2_tail
+8437: exp=     (_1_1 and pre=   \lt_1_1
+8446: exp=     c_1_1 and pre=     0_1_1
+8460: exp=     c_1_1 and pre=     (_1_1
+8463: exp=     L_1_1 and pre=  4_2_nose
+8470: exp=     c_1_1 and pre=     (_1_1
+8474: exp= f_2_cobra and pre=  \int_1_1
+8475: exp= f_2_cobra and pre=  \int_1_1
+8488: exp=     m_1_1 and pre=     n_1_1
+8489: exp=     b_1_1 and pre=  5_2_hook
+8493: exp=     b_1_1 and pre=  5_2_hook
+8494: exp=     )_1_1 and pre=  t_2_tail
+8530: exp=     3_1_1 and pre=     i_2_1
+8539: exp=     b_1_1 and pre=  5_2_hook
+8540: exp=     n_1_1 and pre=  x_2_left
+8544: exp=     L_1_1 and pre=  4_2_nose
+8547: exp=     2_1_1 and pre=     z_1_1
+8552: exp=     r_1_1 and pre=   \lt_1_1
+8558: exp=     d_1_1 and pre=     1_1_1
+8562: exp= f_2_cobra and pre=     (_1_1
+8564: exp=     1_1_1 and pre=     n_1_1
+8565: exp=     v_1_1 and pre=\gamma_1_1
+8570: exp=   p_2_ear and pre=     )_1_1
+8575: exp=     n_1_1 and pre=     h_1_1
+8577: exp=   \lt_1_1 and pre=     (_1_1
+8581: exp=     a_1_1 and pre=     9_1_1
+8596: exp=     m_1_1 and pre=     n_1_1
+8598: exp=     2_1_1 and pre=     (_1_1
+8608: exp=   p_2_ear and pre=     )_1_1
+8613: exp=     )_1_1 and pre=  x_2_left
+8617: exp=y_2_flower and pre=     v_1_1
+8626: exp=\infty_1_1 and pre=     0_1_1
+8630: exp=     )_1_1 and pre=  5_2_hook
+8634: exp=     L_1_1 and pre=  4_2_nose
+8649: exp=   p_2_ear and pre=  x_2_left
+8656: exp=     z_1_1 and pre=     2_1_1
+8679: exp=     b_1_1 and pre=     h_1_1
+8692: exp=     i_2_1 and pre=  4_2_nose
+8704: exp=     c_1_1 and pre=     (_1_1
+8719: exp=     y_1_1 and pre=\gamma_1_1
+8728: exp=   p_2_ear and pre=  x_2_left
+8730: exp=     g_1_1 and pre=     q_1_1
+8733: exp=y_2_flower and pre=     v_1_1
+8737: exp=     n_1_1 and pre=     m_1_1
+8738: exp=     L_1_1 and pre=  4_2_nose
+8739: exp=     L_1_1 and pre=  4_2_nose
+8746: exp=     L_1_1 and pre=  4_2_nose
+8784: exp=  4_2_nose and pre=  t_2_tail
+8804: exp=     z_1_1 and pre=     x_1_1
+8818: exp=     0_1_1 and pre=\infty_1_1
+8820: exp=     )_1_1 and pre=     2_1_1
+8821: exp= f_2_cobra and pre=     (_1_1
+8826: exp=     2_1_1 and pre=     z_1_1
+8828: exp=     y_1_1 and pre=     8_1_1
+8832: exp=     v_1_1 and pre=y_2_flower
+8833: exp=     c_1_1 and pre=     i_2_1
+8835: exp=     c_1_1 and pre=     (_1_1
+8836: exp=     )_1_1 and pre=     j_2_1
+8838: exp=     /_1_1 and pre=  4_2_nose
+8839: exp=     y_1_1 and pre=\gamma_1_1
+8842: exp= f_2_cobra and pre=     (_1_1
+8846: exp=     k_1_1 and pre=     b_1_1
+8851: exp= f_2_cobra and pre=     /_1_1
+8854: exp=     a_1_1 and pre=     u_1_1
+8862: exp=     6_1_1 and pre=\sigma_1_1
+8866: exp=     5_1_1 and pre=  5_2_hook
+8871: exp=     3_1_1 and pre=   p_2_ear
+8874: exp=   \lt_1_1 and pre=    \{_1_1
+8882: exp=     d_1_1 and pre=     l_1_1
+8890: exp=     )_1_1 and pre=  t_2_tail
+8891: exp=     x_1_1 and pre=  t_2_tail
+8896: exp=     s_1_1 and pre=  5_2_hook
+8897: exp=\infty_1_1 and pre=     m_1_1
+8902: exp= f_2_cobra and pre=     j_2_1
+8919: exp= f_2_cobra and pre=  4_2_nose
+8923: exp=     m_1_1 and pre=     1_1_1
+8926: exp=  \int_1_1 and pre=     5_1_1
+8939: exp=     5_1_1 and pre=  \int_1_1
+8942: exp=  5_2_hook and pre=     j_2_1
+8958: exp=  \int_1_1 and pre= \sqrt_1_1
+8979: exp=     k_1_1 and pre=     b_1_1
+8983: exp=     v_1_1 and pre=     p_1_1
+8987: exp=     c_1_1 and pre=     e_1_1
+9002: exp=     /_1_1 and pre=  4_2_nose
+9013: exp=     (_1_1 and pre=     c_1_1
+9020: exp=     c_1_1 and pre=     (_1_1
+9021: exp=     /_1_1 and pre=     i_2_1
+9026: exp=  \int_1_1 and pre= f_2_cobra
+9029: exp=  4_2_nose and pre=  x_2_left
+9034: exp=     m_1_1 and pre=     n_1_1
+9043: exp=     c_1_1 and pre=     (_1_1
+9049: exp=     2_1_1 and pre=     1_1_1
+9153: exp=     b_1_1 and pre= f_2_cobra
+9214: exp=  x_2_left and pre=   p_2_ear
+9311: exp=     )_1_1 and pre=  x_2_left
+9333: exp=y_2_flower and pre=  t_2_tail
+9335: exp=  x_2_left and pre=     7_1_1
+9386: exp=     c_1_1 and pre=     (_1_1
+9406: exp=     9_1_1 and pre=     q_1_1
+9504: exp=     7_1_1 and pre=  t_2_tail
+9585: exp=     )_1_1 and pre=  x_2_left
+9620: exp=     c_1_1 and pre=     (_1_1
+9622: exp=     8_1_1 and pre=\sigma_1_1
+9755: exp=     c_1_1 and pre=     (_1_1
+9764: exp=     )_1_1 and pre=  x_2_left
+9768: exp=     j_2_1 and pre=  4_2_nose
+9777: exp=     )_1_1 and pre=  x_2_left
+9781: exp=  x_2_left and pre=     )_1_1
+9838: exp=     9_1_1 and pre=     g_1_1
+9847: exp=     )_1_1 and pre=  x_2_left
+9859: exp=     )_1_1 and pre=  x_2_left
+9869: exp=  x_2_left and pre=     7_1_1
+9920: exp=     b_1_1 and pre= f_2_cobra
+9958: exp=\alpha_1_1 and pre=     d_1_1
+9959: exp=  x_2_left and pre=   p_2_ear
+9992: exp=\alpha_1_1 and pre=     a_1_1
+10100: exp=  x_2_left and pre=     7_1_1
+10108: exp=  4_2_nose and pre=     i_2_1
+10160: exp=     )_1_1 and pre=  x_2_left
+10178: exp=  4_2_nose and pre=  t_2_tail
+10197: exp=  4_2_nose and pre=  t_2_tail
+10296: exp=     i_2_1 and pre=     (_1_1
+10348: exp=     )_1_1 and pre=  x_2_left
+10373: exp=     8_1_1 and pre=\sigma_1_1
+10398: exp=     c_1_1 and pre=     (_1_1
+10421: exp=     2_1_1 and pre=     z_1_1
+10523: exp=  x_2_left and pre=     )_1_1
+10530: exp=     j_2_1 and pre=  4_2_nose
+10606: exp=     9_1_1 and pre=     g_1_1
+10612: exp=  x_2_left and pre=     )_1_1
+10615: exp=  x_2_left and pre=     )_1_1
+10642: exp=  x_2_left and pre=     7_1_1
+10664: exp=   \lt_1_1 and pre=     (_1_1
+10685: exp=     (_1_1 and pre=     c_1_1
+10692: exp=     )_1_1 and pre=  x_2_left
+10710: exp=   p_2_ear and pre=  x_2_left
+10758: exp=     7_1_1 and pre=     0_1_1
+10759: exp=  5_2_hook and pre=     5_1_1
+10761: exp=     /_1_1 and pre=     (_1_1
+10769: exp=     1_1_1 and pre=     7_1_1
+10772: exp=  5_2_hook and pre=     s_1_1
+10773: exp=   \lt_1_1 and pre=     (_1_1
+10792: exp=     1_1_1 and pre=     7_1_1
+10827: exp=     9_1_1 and pre=     g_1_1
+10851: exp=     4_1_1 and pre=     h_1_1
+10892: exp=     a_1_1 and pre=     c_1_1
+10920: exp=     2_1_1 and pre=     z_1_1
+10945: exp=     (_1_1 and pre=  x_2_left
+10988: exp=     )_1_1 and pre=  x_2_left
+11047: exp=\alpha_1_1 and pre=\sigma_1_1
+11049: exp= f_2_cobra and pre=  \int_1_1
+11051: exp=     (_1_1 and pre=     c_1_1
+11083: exp=  \int_1_1 and pre= f_2_cobra
+11100: exp=     d_1_1 and pre=\alpha_1_1
+11126: exp=     z_1_1 and pre=     2_1_1
+11137: exp=  t_2_tail and pre=  4_2_nose
+11144: exp=  x_2_left and pre=     7_1_1
+11154: exp=  t_2_tail and pre=  4_2_nose
+11162: exp=  x_2_left and pre=     )_1_1
+11165: exp=     z_1_1 and pre=     2_1_1
+11202: exp=  4_2_nose and pre=  t_2_tail
+11206: exp=     n_1_1 and pre=     a_1_1
+11211: exp=     (_1_1 and pre=     c_1_1
+11265: exp=    \}_1_1 and pre=     y_1_1
+11270: exp=     (_1_1 and pre=     c_1_1
+11289: exp=  t_2_tail and pre=     (_1_1
+11290: exp=     g_1_1 and pre=     a_1_1
+11296: exp=     b_1_1 and pre=  t_2_tail
+11297: exp=y_2_flower and pre=  t_2_tail
+11310: exp=  t_2_tail and pre=     (_1_1
+11317: exp=  4_2_nose and pre=     i_2_1
+11335: exp=  4_2_nose and pre=  t_2_tail
+11368: exp=  4_2_nose and pre=  t_2_tail
+11392: exp=     0_1_1 and pre=     8_1_1
+11416: exp=     )_1_1 and pre=  x_2_left
+11432: exp=  t_2_tail and pre=     i_2_1
+11433: exp=    \{_1_1 and pre=     4_1_1
+11471: exp=    \}_1_1 and pre=     4_1_1
+11526: exp=     z_1_1 and pre=     2_1_1
+11540: exp=    \{_1_1 and pre=     [_1_1
+11598: exp=     )_1_1 and pre=  x_2_left
+11604: exp=    \}_1_1 and pre=  t_2_tail
+11652: exp=     )_1_1 and pre=  x_2_left
+11690: exp=    \}_1_1 and pre=     3_1_1
+11692: exp=  t_2_tail and pre=     (_1_1
+11693: exp=     (_1_1 and pre=     c_1_1
+11698: exp=\infty_1_1 and pre=\alpha_1_1
+11743: exp=   \lt_1_1 and pre=     (_1_1
+11756: exp=     )_1_1 and pre=  x_2_left
+11805: exp=     )_1_1 and pre=  x_2_left
+11886: exp=   \lt_1_1 and pre=     (_1_1
+11959: exp=     4_1_1 and pre=     h_1_1
+11978: exp=     a_1_1 and pre=     c_1_1
+11979: exp=     a_1_1 and pre=     c_1_1
+12010: exp=     2_1_1 and pre=     z_1_1
+12079: exp=     )_1_1 and pre=  x_2_left
+12227: exp=     )_1_1 and pre=  x_2_left
+12239: exp=\sum_2_bot and pre=     z_1_1
+12242: exp=     )_1_1 and pre=  x_2_left
+12250: exp=     b_1_1 and pre= f_2_cobra
+12263: exp=     7_1_1 and pre=     n_1_1
+12294: exp=\alpha_1_1 and pre=     d_1_1
+12446: exp=y_2_flower and pre=  t_2_tail
+12471: exp=  4_2_nose and pre=  t_2_tail
+12504: exp=     )_1_1 and pre=  x_2_left
+12510: exp=   \lt_1_1 and pre=     (_1_1
+12525: exp=     9_1_1 and pre=     q_1_1
+12530: exp=  4_2_nose and pre=  t_2_tail
+12535: exp=     )_1_1 and pre=   \gt_1_1
+12564: exp=  4_2_nose and pre=  t_2_tail
+12613: exp=     2_1_1 and pre=     z_1_1
+12633: exp=     i_2_1 and pre=  t_2_tail
+12642: exp=     1_1_1 and pre=y_2_flower
+12646: exp=     i_2_1 and pre=     (_1_1
+12695: exp=     )_1_1 and pre=  x_2_left
+12723: exp=     c_1_1 and pre=     (_1_1
+12726: exp=     8_1_1 and pre=\sigma_1_1
+12756: exp=     2_1_1 and pre=     z_1_1
+12845: exp=     c_1_1 and pre=     (_1_1
+12856: exp=     7_1_1 and pre=     n_1_1
+12951: exp=  x_2_left and pre=     )_1_1
+12953: exp=  x_2_left and pre=     )_1_1
+12956: exp=     )_1_1 and pre=  x_2_left
+12967: exp=     )_1_1 and pre=  x_2_left
+12974: exp=  x_2_left and pre=     7_1_1
