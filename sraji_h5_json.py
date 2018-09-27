@@ -7,7 +7,7 @@
 
 
 #record trace and play back
-http://ramkulkarni.com/blog/record-and-playback-drawing-in-html5-canvas/
+#http://ramkulkarni.com/blog/record-and-playback-drawing-in-html5-canvas/
 
 
 import csv
@@ -23,13 +23,13 @@ from tensorflow.python.keras.models import load_model
 
 
 #model = load_model('./me_ep1000_var61_acc90.h5') #./math_equation.h5', custom_objects = { '0':'a', '1':'b', '2': 'c', '3':'d'})
-model = load_model('./model_sym61_batch500_epoch1500_1st64_2nd32.h5')
+model = load_model('./model_sym61_batch500_epoch1000_1st64_2nd32.h5')
 
 model_json = model.to_json()
-with open( "siraj_deploy_model.json", "w") as json_file:
+with open( "deploy_model_epoch1000.json", "w") as json_file:
   json_file.write(model_json)
 
-model.save_weights("siraj_deploy_model.h5")   
+model.save_weights("deploy_model_epoch1000.h5")   
 
 print(model)
 
