@@ -17,7 +17,7 @@ from tensorflow.python.keras.preprocessing import sequence
 batch_size = 500
 #epoch_size = 1500
 epoch_size = 1000
-#epoch_size = 1
+epoch_size = 1
 #symbol_list = ['0_1_1' '2_1_1' '7_1_1' 'c_1_1']  ==> acc=0.95 by 60 epoch
 
 xsymbol_list = ['0_1_1', '1_1_1', '2_1_1', '3_1_1',  '4_1_1', '4_2_nose',  
@@ -56,13 +56,25 @@ symbol_list= [ "\\sigma_1_1", "(_1_1",       "\\sum_1_1",   "1_1_1",       "n_1_
  "5_2_hook",    "6_1_1",       "v_1_1",       "5_1_1",       "w_1_1",       "\\gt_1_1",    "\\alpha_1_1",
  "\\beta_1_1",  "\\gamma_1_1", "m_1_1",       "l_1_1",       "[_1_1",       "\\infty_1_1", "/_1_1"]      
 removed_list = " : o_1_1   x_2_right"
-"\\lim_2_lim",  
-"\\cos_1_cos", 
-"\\cos_2_co", 
-"\\log_2_lo", 
-"\\lim_3_li", 
-"\\log_1_log", 
-"\\tan_3_an", 
+
+
+symbol_list= [  "\\sum_1_1",   "n_1_1",       "2_1_1",      
+  "b_1_1",       "c_1_1",           "3_1_1",     
+ "a_1_1",       "8_1_1",             "y_1_1",       "0_1_1",      
+       "\\sqrt_1_1",       "k_1_1",      
+     "j_2_1",      
+ "9_1_1",         "\\int_1_1",  
+   "6_1_1",        "5_1_1"    
+ ]
+
+ 
+# "\\lim_2_lim",  
+# "\\cos_1_cos", 
+# "\\cos_2_co", 
+# "\\log_2_lo", 
+# "\\lim_3_li", 
+# "\\log_1_log", 
+# "\\tan_3_an", 
 
 #$ "\\{_1_1",     "\\}_1_1",     "]_1_1",    "[_1_1",    
 #$
