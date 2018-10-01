@@ -58,13 +58,27 @@ symbol_list= [ "\\sigma_1_1", "(_1_1",       "\\sum_1_1",   "1_1_1",       "n_1_
 removed_list = " : o_1_1   x_2_right"
 
 
-symbol_list= [  "\\sum_1_1",   "n_1_1",       "2_1_1",      
-  "b_1_1",       "c_1_1",           "3_1_1",     
- "a_1_1",       "8_1_1",             "y_1_1",       "0_1_1",      
-       "\\sqrt_1_1",       "k_1_1",      
-     "j_2_1",      
- "9_1_1",         "\\int_1_1",  
-   "6_1_1",        "5_1_1"    
+symbol_list= [
+"0_1_1",
+"1_1_1",
+"2_1_1",
+"3_1_1",
+"4_1_1",
+"5_1_1"
+"6_1_1",
+"7_1_1",
+"8_1_1",
+"9_1_1",
+"\\sum_1_1",
+"\\sqrt_1_1",
+"\\int_1_1",
+"a_1_1",
+"b_1_1",
+"c_1_1",
+"j_2_1",
+"k_1_1",
+"n_1_1",
+"y_1_1"
  ]
 
 
@@ -231,7 +245,7 @@ def train_generator():
 
 #import numpy as np
 #model = load_model('./me_ep1000_var61_acc90.h5') #./math_equation.h5', custom_objects = { '0':'a', '1':'b', '2': 'c', '3':'d'})
-model = load_model('./model_sym17_batch500_epoch1000_1st64_2nd32.h5')
+model = load_model('./model_sym19_batch500_epoch1000_1st64_2nd32.h5')
 
 print(model)
 
