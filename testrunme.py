@@ -64,7 +64,7 @@ symbol_list= [
 "2_1_1",
 "3_1_1",
 "4_1_1",
-"5_1_1"
+"5_1_1",
 "6_1_1",
 "7_1_1",
 "8_1_1",
@@ -245,7 +245,7 @@ def train_generator():
 
 #import numpy as np
 #model = load_model('./me_ep1000_var61_acc90.h5') #./math_equation.h5', custom_objects = { '0':'a', '1':'b', '2': 'c', '3':'d'})
-model = load_model('./model_sym19_batch500_epoch1000_1st64_2nd32.h5')
+model = load_model('./model_sym20_batch500_epoch600_1st64_2nd32.h5')
 
 print(model)
 

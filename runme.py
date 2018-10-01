@@ -17,6 +17,7 @@ from tensorflow.python.keras.preprocessing import sequence
 batch_size = 500
 #epoch_size = 1500
 epoch_size = 1000
+epoch_size = 600
 #epoch_size = 1
 #symbol_list = ['0_1_1' '2_1_1' '7_1_1' 'c_1_1']  ==> acc=0.95 by 60 epoch
 
@@ -64,7 +65,7 @@ symbol_list= [
 "2_1_1",      
 "3_1_1",     
 "4_1_1",     
-"5_1_1"    
+"5_1_1",
 "6_1_1",        
 "7_1_1",        
 "8_1_1",             
