@@ -18,6 +18,7 @@ batch_size = 500
 #epoch_size = 1500
 epoch_size = 1000
 epoch_size = 600
+#epoch_size = 350
 #epoch_size = 1
 #symbol_list = ['0_1_1' '2_1_1' '7_1_1' 'c_1_1']  ==> acc=0.95 by 60 epoch
 
@@ -99,7 +100,7 @@ symbol_list= [
 
 
 #file_ = './abc_head_essence_final_2013.csv'
-data_file = 'abc_train_2011_12_13.csv'
+data_file = 'abc_train_2011_12_13_new_regul.csv'
 #file_ = './abc_essence_final_2013.csv'
 t = [] 
 k = []
@@ -111,12 +112,18 @@ with open(data_file, 'r') as f:
     reader = csv.reader(f, skipinitialspace=True) # delimiter=',', quotechar = '"', doublequote = True, quoting=csv.QUOTE_NONE)
     next(reader, None)  #skipping header
     for row in reader:
-        trace_regular =  row[13]
+        #print(row)
+        #trace_regular =  row[13] #prior to Oct 3, when I modified regulization, I shifted 5 metric in add_trace_bb R function
+        trace_regular =  row[18]
+        #print(trace_regular)
         key =  row[-1]
+        #print(key)
 
         #https://www.regular-expressions.info/floatingpoint.html
         refindout = re.findall(r"[-+]?[0-9]*\.?[0-9]+", trace_regular)
+        #print(refindout)
         map_float = np.array( list( map(float, refindout)))
+        #print(map_float)
         strokes = np.reshape( map_float , (-1, 2))
         if( key in  symbol_list):
           t.append(strokes)

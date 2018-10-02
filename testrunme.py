@@ -92,7 +92,7 @@ symbol_list= [
 
 
 #file_ = './abc_head_essence_final_2013.csv'
-file_ = './abc_test_2011_12_13.csv'
+file_ = './abc_test_2011_12_13_new_regul.csv'
 
 t = [] 
 k = []
@@ -104,7 +104,8 @@ with open(file_, 'r') as f:
     reader = csv.reader(f, skipinitialspace=True) # delimiter=',', quotechar = '"', doublequote = True, quoting=csv.QUOTE_NONE)
     next(reader, None)  #skipping header
     for row in reader:
-        trace_regular =  row[13]
+        #trace_regular =  row[13]
+        trace_regular =  row[18]
         key =  row[-1]
 
         #https://www.regular-expressions.info/floatingpoint.html
