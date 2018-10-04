@@ -15,10 +15,13 @@ from tensorflow.python.keras.preprocessing import sequence
 
 
 batch_size = 500
+batch_size = 200  #BI
 #epoch_size = 1500
 epoch_size = 1000
 epoch_size = 600
 epoch_size = 599   #BIDIRECTIONAL
+epoch_size = 1199  #BI
+epoch_size = 699   #BIDIRECTIONAL
 #epoch_size = 350
 #epoch_size = 1
 #symbol_list = ['0_1_1' '2_1_1' '7_1_1' 'c_1_1']  ==> acc=0.95 by 60 epoch
@@ -81,7 +84,12 @@ symbol_list= [
 "j_2_1",      
 "k_1_1",      
 "n_1_1",       
-"y_1_1"       
+"y_1_1", 
+"d_1_1",           
+"(_1_1",       
+")_1_1",       
+"x_2_right",
+"x_2_left"       
  ]
 
  
@@ -291,6 +299,13 @@ print(history_callback.history.keys())
 fi_stem = "./model_sym%d_batch%d_epoch%d_1st%d_2nd%d" % (len(symbol_list), batch_size, epoch_size, first_node, second_node)
 save_file = "%s.h5"%(fi_stem)
 model.save(save_file)
+
+model_json = model.to_json()
+js_file = "./deploy_model_sym%d_batch%d_epoch%d_1st%d_2nd%d.json" % (len(symbol_list), batch_size, epoch_size, first_node, second_node)
+with open( js_file,  "w") as json_file:
+  json_file.write(model_json)
+weight_file = "./deploy_model_sym%d_batch%d_epoch%d_1st%d_2nd%d_weight.h5" % (len(symbol_list), batch_size, epoch_size, first_node, second_node)
+model.save_weights(weight_file)
 
 loss_file = "%s_loss.txt"%(fi_stem)
 acc_file = "%s_acc.txt"%(fi_stem)

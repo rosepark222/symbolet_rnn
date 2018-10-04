@@ -1,0 +1,2 @@
+model_checkpoint_path: "deploy_model_sym61_batch200_epoch1_1st64_2nd32.weight"
+all_model_checkpoint_paths: "deploy_model_sym61_batch200_epoch1_1st64_2nd32.weight"
