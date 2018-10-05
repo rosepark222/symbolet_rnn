@@ -14,57 +14,29 @@ from tensorflow.python.keras.utils import to_categorical
 from tensorflow.python.keras.preprocessing import sequence 
 
 
-batch_size = 500
 batch_size = 200  #BI
+batch_size = 500
 #epoch_size = 1500
 epoch_size = 1000
 epoch_size = 600
 epoch_size = 599   #BIDIRECTIONAL
-epoch_size = 1199  #BI
 epoch_size = 699   #BIDIRECTIONAL
+epoch_size = 1299  #BI
 #epoch_size = 350
 #epoch_size = 1
-#symbol_list = ['0_1_1' '2_1_1' '7_1_1' 'c_1_1']  ==> acc=0.95 by 60 epoch
-
-xsymbol_list = ['0_1_1', '1_1_1', '2_1_1', '3_1_1',  '4_1_1', '4_2_nose',  
-               '5_1_1',  '5_2_hook', '6_1_1',  '7_1_1', '8_1_1', '9_1_1', 
-               'a_1_1', 'b_1_1', 'c_1_1', 'd_1_1',  ]
-
-xsymbol_list = ['0_1_1', '1_1_1', '2_1_1', '3_1_1',  '4_1_1',   
-               '5_1_1', '6_1_1', '7_1_1', '8_1_1', '9_1_1'] 
-#30/30 [==============================] - 17s 579ms/step - loss: 0.1625 - mean_squared_error: 0.0064 - acc: 0.9585
-
-xsymbol_list = ['0_1_1', '1_1_1', '2_1_1', '3_1_1',  '4_1_1', '4_2_nose',  
-               '5_1_1',  '5_2_hook', '6_1_1',  '7_1_1', '8_1_1', '9_1_1', 
-               'a_1_1', 'b_1_1', 'c_1_1', 'd_1_1',  ]
-#Epoch 200/200
-#30/30 [==============================] - 23s 775ms/step - loss: 0.3869 - mean_squared_error: 0.0094 - acc: 0.9068
-
-xsymbol_list= [ "\\sigma_1_1", "(_1_1",       "\\sum_1_1",   "1_1_1",       "n_1_1",       "2_1_1",       ")_1_1",       "r_1_1",      
- "i_2_1",       "\\theta_1_1", "\\sum_2_bot", "b_1_1",       "c_1_1",       "4_1_1",       "3_1_1",       "d_1_1",      
- "a_1_1",       "8_1_1",       "7_1_1",       "4_2_nose",    "y_1_1",       "0_1_1",       "y_2_flower",  "x_2_left",   
- "x_2_right",   "x_1_1",       "\\sqrt_1_1",  "L_1_1",       "u_1_1",       "\\mu_1_1",    "k_1_1",       "\\lt_1_1",   
- "p_1_1",       "p_2_ear",     "q_1_1",       "j_2_1",       "f_2_cobra",   "\\{_1_1",     "\\}_1_1",     "]_1_1",      
- "9_1_1",       "h_1_1",       "\\int_1_1",   "t_2_tail",    "e_1_1",       "z_1_1",       "g_1_1",       "s_1_1",      
- "5_2_hook",    "o_1_1",       "6_1_1",       "v_1_1",       "5_1_1",       "w_1_1",       "\\gt_1_1",    "\\alpha_1_1",
- "\\beta_1_1",  "\\gamma_1_1", "m_1_1",       "l_1_1",       "[_1_1",       "\\infty_1_1", "/_1_1"]      
-
-#Epoch 907/2000
-#30/30 [==============================] - 34s 1s/step - loss: 0.3563 - mean_squared_error: 0.0027 - acc: 0.8891
-
 
 symbol_list= [ "\\sigma_1_1", "(_1_1",       "\\sum_1_1",   "1_1_1",       "n_1_1",       "2_1_1",       ")_1_1",       "r_1_1",      
  "i_2_1",       "\\theta_1_1", "\\sum_2_bot", "b_1_1",       "c_1_1",       "4_1_1",       "3_1_1",       "d_1_1",      
- "a_1_1",       "8_1_1",       "7_1_1",       "4_2_nose",    "y_1_1",       "0_1_1",       "y_2_flower",  "x_2_left",   
- "x_1_1",       "\\sqrt_1_1",  "L_1_1",       "u_1_1",       "\\mu_1_1",    "k_1_1",       "\\lt_1_1",   
- "p_1_1",       "p_2_ear",     "q_1_1",       "j_2_1",       "f_2_cobra",   "\\{_1_1",     "\\}_1_1",     "]_1_1",      
- "9_1_1",       "h_1_1",       "\\int_1_1",   "t_2_tail",    "e_1_1",       "z_1_1",       "g_1_1",       "s_1_1",      
+ "a_1_1",       "8_1_1",       "7_1_1",       "4_2_nose",    "y_1_1",       "0_1_1",       "x_2_left",   
+ "x_1_1",       "\\sqrt_1_1",  "o_1_1",       "u_1_1",       "\\mu_1_1",    "k_1_1",      "\\lt_1_1",
+  "q_1_1",        "\\{_1_1",     "\\}_1_1",     
+ "9_1_1",        "\\int_1_1",   "t_2_tail",    "e_1_1",       "x_2_right",       "g_1_1",       "s_1_1",      
  "5_2_hook",    "6_1_1",       "v_1_1",       "5_1_1",       "w_1_1",       "\\gt_1_1",    "\\alpha_1_1",
- "\\beta_1_1",  "\\gamma_1_1", "m_1_1",       "l_1_1",       "[_1_1",       "\\infty_1_1", "/_1_1"]      
-removed_list = " : o_1_1   x_2_right"
+ "\\beta_1_1",  "\\gamma_1_1", "m_1_1",       "l_1_1",        "\\infty_1_1", "/_1_1"]      
+removed_list = " : L_1_1  z_1_1  y_2_flower  p, p ear, f cobra, [, ], h "
 
 
-symbol_list= [  
+xsymbol_list= [  
 "0_1_1",      
 "1_1_1",      
 "2_1_1",      
@@ -84,13 +56,8 @@ symbol_list= [
 "j_2_1",      
 "k_1_1",      
 "n_1_1",       
-"y_1_1", 
-"d_1_1",           
-"(_1_1",       
-")_1_1",       
-"x_2_right",
-"x_2_left"       
- ]
+"y_1_1"
+]
 
  
 # "\\lim_2_lim",  
@@ -313,7 +280,7 @@ mse_file = "%s_loss.txt"%(fi_stem)
 
 loss_history = history_callback.history['loss']
 numpy_loss_history = np.array(loss_history)
-np.savetxt(loss_file, numpy_loss_history, delimiter=",")
+#np.savetxt(loss_file, numpy_loss_history, delimiter=",")
 
 acc_history = history_callback.history['acc']
 numpy_acc_history = np.array(acc_history)
@@ -321,7 +288,7 @@ np.savetxt(acc_file, numpy_acc_history, delimiter=",")
 
 mse_history = history_callback.history['mean_squared_error']
 numpy_mse_history = np.array(mse_history)
-np.savetxt(mse_file, numpy_mse_history, delimiter=",")
+#np.savetxt(mse_file, numpy_mse_history, delimiter=",")
 
 # #Test Yo!!!!!
 # #Test Yo!!!!!
