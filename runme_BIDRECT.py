@@ -21,7 +21,7 @@ epoch_size = 1000
 epoch_size = 600
 epoch_size = 599   #BIDIRECTIONAL
 epoch_size = 699   #BIDIRECTIONAL
-epoch_size = 1299  #BI
+epoch_size = 1299  #BI Yosemite
 #epoch_size = 350
 #epoch_size = 1
 
@@ -76,13 +76,18 @@ xsymbol_list= [
 
 
 #file_ = './abc_head_essence_final_2013.csv'
-data_file = 'abc_train_2011_12_13_new_regul.csv'
+#data_file = 'abc_train_2011_12_13_new_regul.csv'
+#data_file = 'abc_train_2011_12_13_new_regul_clean_x.csv' #after I removed strange x_2_left and x_2_right
+data_file = 'abc_train_2011_12_13_new_regul_clean_x_balanced_2.csv' #undersample 2_1_1 so that the count would be similar to x_2_left
+
+
 #file_ = './abc_essence_final_2013.csv'
 t = [] 
 k = []
 l = []
 s = []
 verbose = False
+#verbose = True
 with open(data_file, 'r') as f:
     #reader = csv.reader(f, delimiter=',', quotechar = '"', doublequote = True, quoting=csv.QUOTE_NONE)
     reader = csv.reader(f, skipinitialspace=True) # delimiter=',', quotechar = '"', doublequote = True, quoting=csv.QUOTE_NONE)
